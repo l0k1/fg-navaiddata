@@ -1,0 +1,848 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="YWLM">
+		<Sid Name="COFF-HARB2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>CH</Name>
+				<Type>Normal</Type>
+				<Latitude>-30.319167</Latitude>
+				<Longitude>153.116111</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>330</Hdg_Crs_value>
+					<RadialtoIntercept> 12</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>50</Hdg_Crs_value>
+					<RadialtoIntercept> 12</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="TAREE3" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>TRE</Name>
+				<Type>Normal</Type>
+				<Latitude>-31.889494</Latitude>
+				<Longitude>152.509481</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>330</Hdg_Crs_value>
+					<RadialtoIntercept> 20</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>50</Hdg_Crs_value>
+					<RadialtoIntercept> 20</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="DONIC2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>DONIC</Name>
+				<Type>Normal</Type>
+				<Latitude>-33.379722</Latitude>
+				<Longitude>151.907778</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>185</Hdg_Crs_value>
+					<RadialtoIntercept>161</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>130</Hdg_Crs_value>
+					<RadialtoIntercept>161</RadialtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="LOWEP2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>LOWEP</Name>
+				<Type>Normal</Type>
+				<Latitude>-33.068890</Latitude>
+				<Longitude>151.229700</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>280</Hdg_Crs_value>
+					<RadialtoIntercept>229</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>200</Hdg_Crs_value>
+					<RadialtoIntercept>229</RadialtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="TAMWORTH2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>TW</Name>
+				<Type>Normal</Type>
+				<Latitude>-31.066203</Latitude>
+				<Longitude>150.830022</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>300</Hdg_Crs_value>
+					<RadialtoIntercept>321</RadialtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>330</Hdg_Crs_value>
+					<RadialtoIntercept>321</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="CRAVN2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>CRAVN</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.126667</Latitude>
+				<Longitude>151.766667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>300</Hdg_Crs_value>
+					<RadialtoIntercept>343</RadialtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>1</Hdg_Crs_value>
+					<RadialtoIntercept>343</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="NICLA2" Runways="12,30">
+			<Sid_Waypoint ID="1">
+				<Name>NICLA</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.051390</Latitude>
+				<Longitude>152.004400</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<RunwayTransition Runway="12">
+				<RwyTr_Waypoint ID="1">
+					<Name>CLout</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.821246</Latitude>
+					<Longitude>151.870097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>330</Hdg_Crs_value>
+					<RadialtoIntercept>358</RadialtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="30">
+				<RwyTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>298</Hdg_Crs_value>
+					<DMEtoIntercept>03.2</DMEtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>-32.797056</Latitude>
+					<Longitude>151.833194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>20</Hdg_Crs_value>
+					<RadialtoIntercept>358</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Approach Name="ILS12">
+			<App_Waypoint ID="1">
+				<Name>OM12</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.731139</Latitude>
+				<Longitude>151.745260</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>MM12</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.782240</Latitude>
+				<Longitude>151.815857</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW12</Name>
+				<Type>Runway</Type>
+				<Latitude>-32.788767</Latitude>
+				<Longitude>151.824869</Longitude>
+				<Speed>0</Speed>
+				<Altitude>31</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(3100)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3100</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>0</Hdg_Crs>
+				<Hdg_Crs_value>118</Hdg_Crs_value>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Transition Name="Larc">
+				<AppTr_Waypoint ID="1">
+					<Name>B200</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.648725</Latitude>
+					<Longitude>151.945861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>B170</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.620198</Latitude>
+					<Longitude>151.838382</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>B150</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.628461</Latitude>
+					<Longitude>151.763423</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LB130</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.657780</Latitude>
+					<Longitude>151.696302</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>D10.0</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.678342</Latitude>
+					<Longitude>151.671469</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="Rarc">
+				<AppTr_Waypoint ID="1">
+					<Name>B049</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.890607</Latitude>
+					<Longitude>151.636858</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>B070</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.827008</Latitude>
+					<Longitude>151.612460</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>B090</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.763405</Latitude>
+					<Longitude>151.615955</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LB110</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.704638</Latitude>
+					<Longitude>151.645086</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>D10.0</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.678342</Latitude>
+					<Longitude>151.671469</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="ProcTRN">
+				<AppTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.803353</Latitude>
+					<Longitude>151.828781</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LLZ298</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.788333</Latitude>
+					<Longitude>151.825000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>TL218</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.648333</Latitude>
+					<Longitude>151.631667</Longitude>
+					<Speed>170</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>TR038</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.675000</Latitude>
+					<Longitude>151.593333</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>TR038</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.650000</Latitude>
+					<Longitude>151.558333</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>CF</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.623333</Latitude>
+					<Longitude>151.596667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB30">
+			<App_Waypoint ID="1">
+				<Name>FF</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.836730</Latitude>
+				<Longitude>151.940951</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1740</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>MAP30</Name>
+				<Type>Normal</Type>
+				<Latitude>-32.803353</Latitude>
+				<Longitude>151.828781</Longitude>
+				<Speed>0</Speed>
+				<Altitude>540</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW30</Name>
+				<Type>Runway</Type>
+				<Latitude>-32.802989</Latitude>
+				<Longitude>151.844722</Longitude>
+				<Speed>0</Speed>
+				<Altitude>31</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(3100)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3100</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>0</Hdg_Crs>
+				<Hdg_Crs_value>277</Hdg_Crs_value>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Transition Name="WLM">
+				<AppTr_Waypoint ID="1">
+					<Name>WLM</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.803353</Latitude>
+					<Longitude>151.828781</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3100</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>TP1</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>-32.803353</Latitude>
+					<Longitude>151.828781</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>0</Hdg_Crs>
+					<Hdg_Crs_value>127</Hdg_Crs_value>
+					<DMEtoIntercept>07.0</DMEtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>CF</Name>
+					<Type>Normal</Type>
+					<Latitude>-32.842283</Latitude>
+					<Longitude>151.959655</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

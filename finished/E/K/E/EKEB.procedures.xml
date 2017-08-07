@@ -1,0 +1,428 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="EKEB">
+		<Approach Name="ILS08">
+			<App_Waypoint ID="1">
+				<Name>IF08</Name>
+				<Type>Normal</Type>
+				<Latitude>55.507833</Latitude>
+				<Longitude>8.377200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>HP</Name>
+				<Type>Normal</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1460</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW08</Name>
+				<Type>Runway</Type>
+				<Latitude>55.523844</Latitude>
+				<Longitude>8.533489</Longitude>
+				<Speed>0</Speed>
+				<Altitude>97</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>80</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>339</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>HP</Name>
+				<Type>Normal</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>HP</Name>
+				<Type>Hold</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>242</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="BANLU">
+				<AppTr_Waypoint ID="1">
+					<Name>BANLU</Name>
+					<Type>Normal</Type>
+					<Latitude>55.493330</Latitude>
+					<Longitude>8.236944</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="VES">
+				<AppTr_Waypoint ID="1">
+					<Name>VES</Name>
+					<Type>Normal</Type>
+					<Latitude>55.603147</Latitude>
+					<Longitude>8.299961</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>VES/6</Name>
+					<Type>Normal</Type>
+					<Latitude>55.526843</Latitude>
+					<Longitude>8.210128</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BANLU</Name>
+					<Type>Normal</Type>
+					<Latitude>55.493330</Latitude>
+					<Longitude>8.236944</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB08">
+			<App_Waypoint ID="1">
+				<Name>IF08</Name>
+				<Type>Normal</Type>
+				<Latitude>55.507833</Latitude>
+				<Longitude>8.377200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>HP</Name>
+				<Type>Normal</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1460</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW08</Name>
+				<Type>Runway</Type>
+				<Latitude>55.523844</Latitude>
+				<Longitude>8.533489</Longitude>
+				<Speed>0</Speed>
+				<Altitude>97</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>80</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>339</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>HP</Name>
+				<Type>Normal</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>HP</Name>
+				<Type>Hold</Type>
+				<Latitude>55.511436</Latitude>
+				<Longitude>8.412719</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>242</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="ILS26">
+			<App_Waypoint ID="1">
+				<Name>IF26</Name>
+				<Type>Normal</Type>
+				<Latitude>55.553467</Latitude>
+				<Longitude>8.826189</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>EJ</Name>
+				<Type>Normal</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1540</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW26</Name>
+				<Type>Runway</Type>
+				<Latitude>55.528100</Latitude>
+				<Longitude>8.573953</Longitude>
+				<Speed>0</Speed>
+				<Altitude>97</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>260</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>359</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>EJ</Name>
+				<Type>Normal</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>EJ</Name>
+				<Type>Hold</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>105</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="LATVO">
+				<AppTr_Waypoint ID="1">
+					<Name>LATVO</Name>
+					<Type>Normal</Type>
+					<Latitude>55.565000</Latitude>
+					<Longitude>8.913889</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="VES">
+				<AppTr_Waypoint ID="1">
+					<Name>VES</Name>
+					<Type>Normal</Type>
+					<Latitude>55.603147</Latitude>
+					<Longitude>8.299961</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>EJ</Name>
+					<Type>Normal</Type>
+					<Latitude>55.540973</Latitude>
+					<Longitude>8.701448</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ES</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>55.528057</Latitude>
+					<Longitude>8.573889</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>104</Hdg_Crs_value>
+					<DMEtoIntercept>08.4</DMEtoIntercept>
+					<Sp_Turn>Left</Sp_Turn>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB26">
+			<App_Waypoint ID="1">
+				<Name>IF26</Name>
+				<Type>Normal</Type>
+				<Latitude>55.553467</Latitude>
+				<Longitude>8.826189</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>EJ</Name>
+				<Type>Normal</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1540</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW26</Name>
+				<Type>Runway</Type>
+				<Latitude>55.528100</Latitude>
+				<Longitude>8.573953</Longitude>
+				<Speed>0</Speed>
+				<Altitude>97</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>260</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>359</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>EJ</Name>
+				<Type>Normal</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>EJ</Name>
+				<Type>Hold</Type>
+				<Latitude>55.540973</Latitude>
+				<Longitude>8.701448</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>105</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+	</Airport>
+</ProceduresDB>

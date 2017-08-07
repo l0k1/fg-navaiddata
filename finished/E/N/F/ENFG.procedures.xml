@@ -1,0 +1,1755 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="ENFG">
+		<Approach Name="LOC33">
+			<App_Waypoint ID="1">
+				<Name>LL/10</Name>
+				<Type>Normal</Type>
+				<Latitude>60.872479</Latitude>
+				<Longitude>9.469932</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>LL/5</Name>
+				<Type>Normal</Type>
+				<Latitude>60.944423</Latitude>
+				<Longitude>9.383438</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4250</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>LL/3</Name>
+				<Type>Normal</Type>
+				<Latitude>60.973185</Latitude>
+				<Longitude>9.348731</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW33</Name>
+				<Type>Runway</Type>
+				<Latitude>61.003389</Latitude>
+				<Longitude>9.302828</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2697</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>LL/1</Name>
+				<Type>Normal</Type>
+				<Latitude>61.046184</Latitude>
+				<Longitude>9.252654</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>LL</Name>
+				<Type>Normal</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>LL</Name>
+				<Type>Hold</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>340</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="LL">
+				<AppTr_Waypoint ID="1">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>60.857251</Latitude>
+					<Longitude>9.399020</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="KPG">
+				<AppTr_Waypoint ID="1">
+					<Name>KPG</Name>
+					<Type>Normal</Type>
+					<Latitude>61.177467</Latitude>
+					<Longitude>7.214692</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>61.062790</Latitude>
+					<Longitude>8.859501</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.055731</Latitude>
+					<Longitude>8.926823</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.020832</Latitude>
+					<Longitude>8.918291</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.992110</Latitude>
+					<Longitude>8.921657</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.960940</Latitude>
+					<Longitude>8.936186</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.934309</Latitude>
+					<Longitude>8.958596</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.909703</Latitude>
+					<Longitude>8.989263</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.887721</Latitude>
+					<Longitude>9.027421</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.868900</Latitude>
+					<Longitude>9.072127</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="11">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="12">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="13">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="14">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="15">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="16">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="17">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.853465</Latitude>
+					<Longitude>9.469907</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="FLS">
+				<AppTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.950769</Latitude>
+					<Longitude>8.870800</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.960940</Latitude>
+					<Longitude>8.936186</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.934309</Latitude>
+					<Longitude>8.958596</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.909703</Latitude>
+					<Longitude>8.989263</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.887721</Latitude>
+					<Longitude>9.027421</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.868900</Latitude>
+					<Longitude>9.072127</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="11">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="12">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="13">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="14">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.853465</Latitude>
+					<Longitude>9.469907</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="KLD">
+				<AppTr_Waypoint ID="1">
+					<Name>KLD</Name>
+					<Type>Normal</Type>
+					<Latitude>60.055003</Latitude>
+					<Longitude>8.373472</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.822394</Latitude>
+					<Longitude>9.097706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.853465</Latitude>
+					<Longitude>9.469907</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="DRA">
+				<AppTr_Waypoint ID="1">
+					<Name>DRA</Name>
+					<Type>Normal</Type>
+					<Latitude>59.733256</Latitude>
+					<Longitude>10.112458</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.809518</Latitude>
+					<Longitude>9.429561</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="MES">
+				<AppTr_Waypoint ID="1">
+					<Name>MES</Name>
+					<Type>Normal</Type>
+					<Latitude>61.099806</Latitude>
+					<Longitude>10.642778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>61.043570</Latitude>
+					<Longitude>9.740332</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.039471</Latitude>
+					<Longitude>9.672009</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.010732</Latitude>
+					<Longitude>9.674695</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.982143</Latitude>
+					<Longitude>9.668074</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.954408</Latitude>
+					<Longitude>9.652336</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.928204</Latitude>
+					<Longitude>9.627888</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.904174</Latitude>
+					<Longitude>9.595348</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.882904</Latitude>
+					<Longitude>9.555528</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.864911</Latitude>
+					<Longitude>9.509411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="BBU">
+				<AppTr_Waypoint ID="1">
+					<Name>BBU</Name>
+					<Type>Normal</Type>
+					<Latitude>60.471778</Latitude>
+					<Longitude>10.338861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.858595</Latitude>
+					<Longitude>9.602382</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="OSVIG">
+				<AppTr_Waypoint ID="1">
+					<Name>OSVIG</Name>
+					<Type>Normal</Type>
+					<Latitude>61.074444</Latitude>
+					<Longitude>9.398889</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>60.857251</Latitude>
+					<Longitude>9.399020</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB15">
+			<App_Waypoint ID="1">
+				<Name>LL/10</Name>
+				<Type>Normal</Type>
+				<Latitude>61.119973</Latitude>
+				<Longitude>9.026783</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>LL/5</Name>
+				<Type>Normal</Type>
+				<Latitude>61.068209</Latitude>
+				<Longitude>9.161889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4400</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>LL/3</Name>
+				<Type>Normal</Type>
+				<Latitude>61.047466</Latitude>
+				<Longitude>9.215807</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW15</Name>
+				<Type>Runway</Type>
+				<Latitude>61.019222</Latitude>
+				<Longitude>9.283569</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2697</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>LL</Name>
+				<Type>DmeIntc</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>142</Hdg_Crs_value>
+				<DMEtoIntercept>06.0</DMEtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>LL</Name>
+				<Type>Normal</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>LL</Name>
+				<Type>Hold</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>340</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="LL">
+				<AppTr_Waypoint ID="1">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="OSVIG">
+				<AppTr_Waypoint ID="1">
+					<Name>OSVIG</Name>
+					<Type>Normal</Type>
+					<Latitude>61.074444</Latitude>
+					<Longitude>9.398889</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="MES">
+				<AppTr_Waypoint ID="1">
+					<Name>MES</Name>
+					<Type>Normal</Type>
+					<Latitude>61.099806</Latitude>
+					<Longitude>10.642778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>61.043570</Latitude>
+					<Longitude>9.740332</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="BBU">
+				<AppTr_Waypoint ID="1">
+					<Name>BBU</Name>
+					<Type>Normal</Type>
+					<Latitude>60.471778</Latitude>
+					<Longitude>10.338861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.858595</Latitude>
+					<Longitude>9.602382</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="DRA">
+				<AppTr_Waypoint ID="1">
+					<Name>DRA</Name>
+					<Type>Normal</Type>
+					<Latitude>59.733256</Latitude>
+					<Longitude>10.112458</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.809518</Latitude>
+					<Longitude>9.429561</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="KLD">
+				<AppTr_Waypoint ID="1">
+					<Name>KLD</Name>
+					<Type>Normal</Type>
+					<Latitude>60.055003</Latitude>
+					<Longitude>8.373472</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.822394</Latitude>
+					<Longitude>9.097706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>61.144883</Latitude>
+					<Longitude>9.077246</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="FLS">
+				<AppTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.950769</Latitude>
+					<Longitude>8.870800</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.960940</Latitude>
+					<Longitude>8.936186</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.988943</Latitude>
+					<Longitude>8.922603</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.017632</Latitude>
+					<Longitude>8.918205</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.049455</Latitude>
+					<Longitude>8.924243</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.077274</Latitude>
+					<Longitude>8.939390</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.103601</Latitude>
+					<Longitude>8.963382</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB33">
+			<App_Waypoint ID="1">
+				<Name>LL/10</Name>
+				<Type>Normal</Type>
+				<Latitude>60.860066</Latitude>
+				<Longitude>9.415980</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>LL/5</Name>
+				<Type>Normal</Type>
+				<Latitude>60.891324</Latitude>
+				<Longitude>9.392188</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>LL/3</Name>
+				<Type>Normal</Type>
+				<Latitude>60.953826</Latitude>
+				<Longitude>9.344464</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW33</Name>
+				<Type>Runway</Type>
+				<Latitude>61.003389</Latitude>
+				<Longitude>9.302828</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2697</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>LL</Name>
+				<Type>Normal</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>LL</Name>
+				<Type>Hold</Type>
+				<Latitude>61.016311</Latitude>
+				<Longitude>9.296553</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>340</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="LL">
+				<AppTr_Waypoint ID="1">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>60.849792</Latitude>
+					<Longitude>9.311010</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="OSVIG">
+				<AppTr_Waypoint ID="1">
+					<Name>OSVIG</Name>
+					<Type>Normal</Type>
+					<Latitude>61.074444</Latitude>
+					<Longitude>9.398889</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL</Name>
+					<Type>Normal</Type>
+					<Latitude>61.016311</Latitude>
+					<Longitude>9.296553</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>LL/10</Name>
+					<Type>Normal</Type>
+					<Latitude>60.849792</Latitude>
+					<Longitude>9.311010</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="KPG">
+				<AppTr_Waypoint ID="1">
+					<Name>KPG</Name>
+					<Type>Normal</Type>
+					<Latitude>61.177467</Latitude>
+					<Longitude>7.214692</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>61.062790</Latitude>
+					<Longitude>8.859501</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.055731</Latitude>
+					<Longitude>8.926823</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.020832</Latitude>
+					<Longitude>8.918291</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.992110</Latitude>
+					<Longitude>8.921657</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.960940</Latitude>
+					<Longitude>8.936186</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.934309</Latitude>
+					<Longitude>8.958596</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.909703</Latitude>
+					<Longitude>8.989263</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.887721</Latitude>
+					<Longitude>9.027421</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.868900</Latitude>
+					<Longitude>9.072127</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="11">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="12">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="13">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="14">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="15">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="16">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="FLS">
+				<AppTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.950769</Latitude>
+					<Longitude>8.870800</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.960940</Latitude>
+					<Longitude>8.936186</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.934309</Latitude>
+					<Longitude>8.958596</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.909703</Latitude>
+					<Longitude>8.989263</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.887721</Latitude>
+					<Longitude>9.027421</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.868900</Latitude>
+					<Longitude>9.072127</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="11">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="12">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="13">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="KLD">
+				<AppTr_Waypoint ID="1">
+					<Name>KLD</Name>
+					<Type>Normal</Type>
+					<Latitude>60.055003</Latitude>
+					<Longitude>8.373472</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.822394</Latitude>
+					<Longitude>9.097706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>8000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.852246</Latitude>
+					<Longitude>9.128141</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.841491</Latitude>
+					<Longitude>9.182913</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835017</Latitude>
+					<Longitude>9.240438</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.832983</Latitude>
+					<Longitude>9.299321</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.835437</Latitude>
+					<Longitude>9.358137</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.842320</Latitude>
+					<Longitude>9.415462</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="DRA">
+				<AppTr_Waypoint ID="1">
+					<Name>DRA</Name>
+					<Type>Normal</Type>
+					<Latitude>59.733256</Latitude>
+					<Longitude>10.112458</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.809518</Latitude>
+					<Longitude>9.429561</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="MES">
+				<AppTr_Waypoint ID="1">
+					<Name>MES</Name>
+					<Type>Normal</Type>
+					<Latitude>61.099806</Latitude>
+					<Longitude>10.642778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>61.043570</Latitude>
+					<Longitude>9.740332</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.039471</Latitude>
+					<Longitude>9.672009</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>61.010732</Latitude>
+					<Longitude>9.674695</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.982143</Latitude>
+					<Longitude>9.668074</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.954408</Latitude>
+					<Longitude>9.652336</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.928204</Latitude>
+					<Longitude>9.627888</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="8">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.904174</Latitude>
+					<Longitude>9.595348</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="9">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.882904</Latitude>
+					<Longitude>9.555528</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="10">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.864911</Latitude>
+					<Longitude>9.509411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="11">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.850632</Latitude>
+					<Longitude>9.458126</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="BBU">
+				<AppTr_Waypoint ID="1">
+					<Name>BBU</Name>
+					<Type>Normal</Type>
+					<Latitude>60.471778</Latitude>
+					<Longitude>10.338861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>LL/13</Name>
+					<Type>Normal</Type>
+					<Latitude>60.858595</Latitude>
+					<Longitude>9.602382</Longitude>
+					<Speed>0</Speed>
+					<Altitude>6000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.882904</Latitude>
+					<Longitude>9.555528</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.864911</Latitude>
+					<Longitude>9.509411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>ARC11</Name>
+					<Type>Normal</Type>
+					<Latitude>60.850632</Latitude>
+					<Longitude>9.458126</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

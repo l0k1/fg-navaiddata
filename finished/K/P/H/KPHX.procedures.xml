@@ -1,0 +1,2539 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="KPHX">
+		<Sid Name="BXK2" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>BXK</Name>
+				<Type>Normal</Type>
+				<Latitude>33.453456</Latitude>
+				<Longitude>-112.824592</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="BLH">
+				<SidTr_Waypoint ID="1">
+					<Name>BLH</Name>
+					<Type>Normal</Type>
+					<Latitude>33.596069</Latitude>
+					<Longitude>-114.761183</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PMD">
+				<SidTr_Waypoint ID="1">
+					<Name>BLH</Name>
+					<Type>Normal</Type>
+					<Latitude>33.596069</Latitude>
+					<Longitude>-114.761183</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>DECAS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.823597</Latitude>
+					<Longitude>-115.456706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>PMD</Name>
+					<Type>Normal</Type>
+					<Latitude>34.631406</Latitude>
+					<Longitude>-118.063822</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PSP">
+				<SidTr_Waypoint ID="1">
+					<Name>CURIV</Name>
+					<Type>Normal</Type>
+					<Latitude>33.773047</Latitude>
+					<Longitude>-114.544064</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>DECAS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.823597</Latitude>
+					<Longitude>-115.456706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>PSP</Name>
+					<Type>Normal</Type>
+					<Latitude>33.870017</Latitude>
+					<Longitude>-116.429761</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PKE">
+				<SidTr_Waypoint ID="1">
+					<Name>PKE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.101972</Latitude>
+					<Longitude>-114.682067</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07L">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>80</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.426583</Latitude>
+					<Longitude>-111.890691</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>100</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="08">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>80</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.426583</Latitude>
+					<Longitude>-111.890691</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>100</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="07R">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>80</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.426583</Latitude>
+					<Longitude>-111.890691</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>100</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="25L">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>258</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>240</Hdg_Crs_value>
+					<DMEtoIntercept>13.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>VorRadialIntc</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>280</Hdg_Crs_value>
+					<RadialtoIntercept>77</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="25R">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>258</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>240</Hdg_Crs_value>
+					<DMEtoIntercept>13.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>VorRadialIntc</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>280</Hdg_Crs_value>
+					<RadialtoIntercept>77</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="26">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>258</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>below</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>240</Hdg_Crs_value>
+					<DMEtoIntercept>13.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>VorRadialIntc</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>7000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>280</Hdg_Crs_value>
+					<RadialtoIntercept>77</RadialtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="BARGN1" Runways="07L,07R,08">
+			<Sid_Waypoint ID="1">
+				<Name>CHEZZ</Name>
+				<Type>Normal</Type>
+				<Latitude>33.433333</Latitude>
+				<Longitude>-111.888333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>BARGN</Name>
+				<Type>Normal</Type>
+				<Latitude>33.529000</Latitude>
+				<Longitude>-111.711167</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>ZEPER</Name>
+				<Type>Normal</Type>
+				<Latitude>34.027575</Latitude>
+				<Longitude>-112.334350</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>CHILY</Name>
+				<Type>Normal</Type>
+				<Latitude>34.713503</Latitude>
+				<Longitude>-112.761742</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="EED">
+				<SidTr_Waypoint ID="1">
+					<Name>EED</Name>
+					<Type>Normal</Type>
+					<Latitude>34.766006</Latitude>
+					<Longitude>-114.474106</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="OAL">
+				<SidTr_Waypoint ID="1">
+					<Name>RAMSY</Name>
+					<Type>Normal</Type>
+					<Latitude>34.891256</Latitude>
+					<Longitude>-113.138328</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>SISIE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.984767</Latitude>
+					<Longitude>-113.338103</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>DOVEE</Name>
+					<Type>Normal</Type>
+					<Latitude>35.447519</Latitude>
+					<Longitude>-114.800261</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>BIKKR</Name>
+					<Type>Normal</Type>
+					<Latitude>36.566667</Latitude>
+					<Longitude>-116.750000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>OAL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.003261</Latitude>
+					<Longitude>-117.770447</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="LYNSY">
+				<SidTr_Waypoint ID="1">
+					<Name>RAMSY</Name>
+					<Type>Normal</Type>
+					<Latitude>34.891256</Latitude>
+					<Longitude>-113.138328</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>SISIE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.984767</Latitude>
+					<Longitude>-113.338103</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>IGM</Name>
+					<Type>Normal</Type>
+					<Latitude>35.260525</Latitude>
+					<Longitude>-113.934086</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>LYNSY</Name>
+					<Type>Normal</Type>
+					<Latitude>35.660542</Latitude>
+					<Longitude>-114.756153</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07L">
+				<RwyTr_Waypoint ID="1">
+					<Name>ZILLA</Name>
+					<Type>Normal</Type>
+					<Latitude>33.430997</Latitude>
+					<Longitude>-111.949528</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="07R">
+				<RwyTr_Waypoint ID="1">
+					<Name>TRAGZ</Name>
+					<Type>Normal</Type>
+					<Latitude>33.428803</Latitude>
+					<Longitude>-111.957728</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="08">
+				<RwyTr_Waypoint ID="1">
+					<Name>PRIMY</Name>
+					<Type>Normal</Type>
+					<Latitude>33.440764</Latitude>
+					<Longitude>-111.946978</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="CHEZZ2" Runways="07L,07R,08">
+			<Sid_Waypoint ID="1">
+				<Name>CHEZZ</Name>
+				<Type>Normal</Type>
+				<Latitude>33.433333</Latitude>
+				<Longitude>-111.888333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="ABQ">
+				<SidTr_Waypoint ID="1">
+					<Name>FORPE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.691389</Latitude>
+					<Longitude>-111.270556</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>SJN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.424056</Latitude>
+					<Longitude>-109.143519</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>ABQ</Name>
+					<Type>Normal</Type>
+					<Latitude>35.043797</Latitude>
+					<Longitude>-106.816314</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="DRYHT">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>BAYTA</Name>
+					<Type>Normal</Type>
+					<Latitude>33.501322</Latitude>
+					<Longitude>-111.378089</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>CHOPR</Name>
+					<Type>Normal</Type>
+					<Latitude>33.523461</Latitude>
+					<Longitude>-111.180514</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>GILAA</Name>
+					<Type>Normal</Type>
+					<Latitude>33.555358</Latitude>
+					<Longitude>-110.890628</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>DRYHT</Name>
+					<Type>Normal</Type>
+					<Latitude>34.417564</Latitude>
+					<Longitude>-108.136233</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="GBN">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>GBN</Name>
+					<Type>Normal</Type>
+					<Latitude>32.956258</Latitude>
+					<Longitude>-112.674272</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="BLH">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>BLH</Name>
+					<Type>Normal</Type>
+					<Latitude>33.596069</Latitude>
+					<Longitude>-114.761183</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PSP">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>CULTS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.584244</Latitude>
+					<Longitude>-113.511219</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>CURIV</Name>
+					<Type>Normal</Type>
+					<Latitude>33.773047</Latitude>
+					<Longitude>-114.544064</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="6">
+					<Name>DECAS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.823597</Latitude>
+					<Longitude>-115.456706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="7">
+					<Name>PSP</Name>
+					<Type>Normal</Type>
+					<Latitude>33.870017</Latitude>
+					<Longitude>-116.429761</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PMD">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>CULTS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.584244</Latitude>
+					<Longitude>-113.511219</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>CURIV</Name>
+					<Type>Normal</Type>
+					<Latitude>33.773047</Latitude>
+					<Longitude>-114.544064</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="6">
+					<Name>DECAS</Name>
+					<Type>Normal</Type>
+					<Latitude>33.823597</Latitude>
+					<Longitude>-115.456706</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="7">
+					<Name>PMD</Name>
+					<Type>Normal</Type>
+					<Latitude>34.631406</Latitude>
+					<Longitude>-118.063822</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="PKE">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>PKE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.101972</Latitude>
+					<Longitude>-114.682067</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="TNP">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>BXK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.453456</Latitude>
+					<Longitude>-112.824592</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>PKE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.101972</Latitude>
+					<Longitude>-114.682067</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>TNP</Name>
+					<Type>Normal</Type>
+					<Latitude>34.112225</Latitude>
+					<Longitude>-115.769911</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="TFD">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>TFD</Name>
+					<Type>Normal</Type>
+					<Latitude>32.885858</Latitude>
+					<Longitude>-111.908717</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="TUS">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>TFD</Name>
+					<Type>Normal</Type>
+					<Latitude>32.885858</Latitude>
+					<Longitude>-111.908717</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>TUS</Name>
+					<Type>Normal</Type>
+					<Latitude>32.095189</Latitude>
+					<Longitude>-110.914869</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="CIE">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>TFD</Name>
+					<Type>Normal</Type>
+					<Latitude>32.885858</Latitude>
+					<Longitude>-111.908717</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>PUSCH</Name>
+					<Type>Normal</Type>
+					<Latitude>32.400467</Latitude>
+					<Longitude>-110.885411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>CIE</Name>
+					<Type>Normal</Type>
+					<Latitude>32.033389</Latitude>
+					<Longitude>-109.758203</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="EWM">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>TFD</Name>
+					<Type>Normal</Type>
+					<Latitude>32.885858</Latitude>
+					<Longitude>-111.908717</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>PUSCH</Name>
+					<Type>Normal</Type>
+					<Latitude>32.400467</Latitude>
+					<Longitude>-110.885411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>CIE</Name>
+					<Type>Normal</Type>
+					<Latitude>32.033389</Latitude>
+					<Longitude>-109.758203</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="6">
+					<Name>EWM</Name>
+					<Type>Normal</Type>
+					<Latitude>31.951744</Latitude>
+					<Longitude>-106.272400</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="ELP">
+				<SidTr_Waypoint ID="1">
+					<Name>CLOSE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.376111</Latitude>
+					<Longitude>-111.699722</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>MASKK</Name>
+					<Type>Normal</Type>
+					<Latitude>33.194886</Latitude>
+					<Longitude>-111.947347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>TFD</Name>
+					<Type>Normal</Type>
+					<Latitude>32.885858</Latitude>
+					<Longitude>-111.908717</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>PUSCH</Name>
+					<Type>Normal</Type>
+					<Latitude>32.400467</Latitude>
+					<Longitude>-110.885411</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="5">
+					<Name>CIE</Name>
+					<Type>Normal</Type>
+					<Latitude>32.033389</Latitude>
+					<Longitude>-109.758203</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="6">
+					<Name>ELP</Name>
+					<Type>Normal</Type>
+					<Latitude>31.815911</Latitude>
+					<Longitude>-106.281883</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="LAVAN">
+				<SidTr_Waypoint ID="1">
+					<Name>FORPE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.691389</Latitude>
+					<Longitude>-111.270556</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>LAVAN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.846086</Latitude>
+					<Longitude>-107.284847</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07L">
+				<RwyTr_Waypoint ID="1">
+					<Name>ZILLA</Name>
+					<Type>Normal</Type>
+					<Latitude>33.430997</Latitude>
+					<Longitude>-111.949528</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="07R">
+				<RwyTr_Waypoint ID="1">
+					<Name>TRAGZ</Name>
+					<Type>Normal</Type>
+					<Latitude>33.428803</Latitude>
+					<Longitude>-111.957728</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="08">
+				<RwyTr_Waypoint ID="1">
+					<Name>PRIMY</Name>
+					<Type>Normal</Type>
+					<Latitude>33.440764</Latitude>
+					<Longitude>-111.946978</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="CHILY1" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>ZEPER</Name>
+				<Type>Normal</Type>
+				<Latitude>34.027575</Latitude>
+				<Longitude>-112.334350</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>KARLO</Name>
+				<Type>Normal</Type>
+				<Latitude>34.291178</Latitude>
+				<Longitude>-112.497656</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>CHILY</Name>
+				<Type>Normal</Type>
+				<Latitude>34.713503</Latitude>
+				<Longitude>-112.761742</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="EED">
+				<SidTr_Waypoint ID="1">
+					<Name>EED</Name>
+					<Type>Normal</Type>
+					<Latitude>34.766006</Latitude>
+					<Longitude>-114.474106</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="HOBES">
+				<SidTr_Waypoint ID="1">
+					<Name>HOBES</Name>
+					<Type>Normal</Type>
+					<Latitude>34.938939</Latitude>
+					<Longitude>-112.903967</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="IGM">
+				<SidTr_Waypoint ID="1">
+					<Name>RAMSY</Name>
+					<Type>Normal</Type>
+					<Latitude>34.891256</Latitude>
+					<Longitude>-113.138328</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>SISIE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.984767</Latitude>
+					<Longitude>-113.338103</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>IGM</Name>
+					<Type>Normal</Type>
+					<Latitude>35.260525</Latitude>
+					<Longitude>-113.934086</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="BTY">
+				<SidTr_Waypoint ID="1">
+					<Name>RAMSY</Name>
+					<Type>Normal</Type>
+					<Latitude>34.891256</Latitude>
+					<Longitude>-113.138328</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>SISIE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.984767</Latitude>
+					<Longitude>-113.338103</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>DOVEE</Name>
+					<Type>Normal</Type>
+					<Latitude>35.447519</Latitude>
+					<Longitude>-114.800261</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="4">
+					<Name>BTY</Name>
+					<Type>Normal</Type>
+					<Latitude>36.800583</Latitude>
+					<Longitude>-116.747647</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07L">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>75</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.436534</Latitude>
+					<Longitude>-111.890424</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>45</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="07R">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>70</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.446406</Latitude>
+					<Longitude>-111.891936</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>45</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+			<RunwayTransition Runway="08">
+				<RwyTr_Waypoint ID="1">
+					<Name>(1550)</Name>
+					<Type>ConstHdgtoAlt</Type>
+					<Latitude>0.000000</Latitude>
+					<Longitude>0.000000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>1550</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>78</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>PXR</Name>
+					<Type>DmeIntc</Type>
+					<Latitude>33.433017</Latitude>
+					<Longitude>-111.970200</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>80</Hdg_Crs_value>
+					<DMEtoIntercept>04.0</DMEtoIntercept>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="3">
+					<Name>VECTORS</Name>
+					<Type>Vectors</Type>
+					<Latitude>33.426583</Latitude>
+					<Longitude>-111.890691</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>45</Hdg_Crs_value>
+					<Sp_Turn>Right</Sp_Turn>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Star Name="ARLIN3">
+			<Star_Waypoint ID="1">
+				<Name>HYDRR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.274275</Latitude>
+				<Longitude>-113.069642</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>PAYNT</Name>
+				<Type>Normal</Type>
+				<Latitude>33.279958</Latitude>
+				<Longitude>-112.844114</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>ARLIN</Name>
+				<Type>Normal</Type>
+				<Latitude>33.283714</Latitude>
+				<Longitude>-112.685131</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>ALEYS</Name>
+				<Type>Normal</Type>
+				<Latitude>33.296697</Latitude>
+				<Longitude>-112.049061</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>TUKEE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.299319</Latitude>
+				<Longitude>-111.897444</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Transition Name="BLH">
+				<StarTr_Waypoint ID="1">
+					<Name>BLH</Name>
+					<Type>Normal</Type>
+					<Latitude>33.596069</Latitude>
+					<Longitude>-114.761183</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>SCOLE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.462742</Latitude>
+					<Longitude>-114.081769</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>CALIE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.272269</Latitude>
+					<Longitude>-113.145933</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="MOHAK">
+				<StarTr_Waypoint ID="1">
+					<Name>MOHAK</Name>
+					<Type>Normal</Type>
+					<Latitude>32.775844</Latitude>
+					<Longitude>-113.972097</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>JUDTH</Name>
+					<Type>Normal</Type>
+					<Latitude>32.816503</Latitude>
+					<Longitude>-113.688394</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="BLH4">
+			<Star_Waypoint ID="1">
+				<Name>BLH</Name>
+				<Type>Normal</Type>
+				<Latitude>33.596069</Latitude>
+				<Longitude>-114.761183</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>SADLL</Name>
+				<Type>Normal</Type>
+				<Latitude>33.266814</Latitude>
+				<Longitude>-113.345111</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>HYDRR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.274275</Latitude>
+				<Longitude>-113.069642</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>PAYNT</Name>
+				<Type>Normal</Type>
+				<Latitude>33.279958</Latitude>
+				<Longitude>-112.844114</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>ARLIN</Name>
+				<Type>Normal</Type>
+				<Latitude>33.283714</Latitude>
+				<Longitude>-112.685131</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>AMBRR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.291017</Latitude>
+				<Longitude>-112.347239</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="7">
+				<Name>ALEYS</Name>
+				<Type>Normal</Type>
+				<Latitude>33.296697</Latitude>
+				<Longitude>-112.049061</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="8">
+				<Name>TUKEE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.299319</Latitude>
+				<Longitude>-111.897444</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="BUNTR1">
+			<Star_Waypoint ID="1">
+				<Name>EAGUL</Name>
+				<Type>Normal</Type>
+				<Latitude>34.131736</Latitude>
+				<Longitude>-111.082706</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>PICHR</Name>
+				<Type>Normal</Type>
+				<Latitude>34.063286</Latitude>
+				<Longitude>-111.170639</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>DBACK</Name>
+				<Type>Normal</Type>
+				<Latitude>33.926236</Latitude>
+				<Longitude>-111.346106</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>HOMRR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.880478</Latitude>
+				<Longitude>-111.404447</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>BUNTR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.834706</Latitude>
+				<Longitude>-111.462744</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>VECTORS</Name>
+				<Type>Vectors</Type>
+				<Latitude>33.834706</Latitude>
+				<Longitude>-111.462744</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>225</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Star_Waypoint>
+			<Star_Transition Name="INW">
+				<StarTr_Waypoint ID="1">
+					<Name>INW</Name>
+					<Type>Normal</Type>
+					<Latitude>35.061603</Latitude>
+					<Longitude>-110.795028</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>JESSE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.583533</Latitude>
+					<Longitude>-110.943764</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>GUMMO</Name>
+					<Type>Normal</Type>
+					<Latitude>34.317664</Latitude>
+					<Longitude>-111.025675</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="GUP">
+				<StarTr_Waypoint ID="1">
+					<Name>GUP</Name>
+					<Type>Normal</Type>
+					<Latitude>35.476000</Latitude>
+					<Longitude>-108.872611</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>SLIDR</Name>
+					<Type>Normal</Type>
+					<Latitude>34.705667</Latitude>
+					<Longitude>-109.856344</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>PAYSO</Name>
+					<Type>Normal</Type>
+					<Latitude>34.354456</Latitude>
+					<Longitude>-110.795014</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="ZUN">
+				<StarTr_Waypoint ID="1">
+					<Name>ZUN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.965753</Latitude>
+					<Longitude>-109.154508</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>DOJOE</Name>
+					<Type>Normal</Type>
+					<Latitude>34.788261</Latitude>
+					<Longitude>-109.635147</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>SLIDR</Name>
+					<Type>Normal</Type>
+					<Latitude>34.705667</Latitude>
+					<Longitude>-109.856344</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>PAYSO</Name>
+					<Type>Normal</Type>
+					<Latitude>34.354456</Latitude>
+					<Longitude>-110.795014</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="COYOT1">
+			<Star_Waypoint ID="1">
+				<Name>COYOT</Name>
+				<Type>Normal</Type>
+				<Latitude>34.167819</Latitude>
+				<Longitude>-112.158122</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>BRUSR</Name>
+				<Type>Normal</Type>
+				<Latitude>34.086192</Latitude>
+				<Longitude>-112.137083</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>MAHEM</Name>
+				<Type>Normal</Type>
+				<Latitude>34.004564</Latitude>
+				<Longitude>-112.116083</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>PXR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Transition Name="BLD">
+				<StarTr_Waypoint ID="1">
+					<Name>BLD</Name>
+					<Type>Normal</Type>
+					<Latitude>35.995786</Latitude>
+					<Longitude>-114.863569</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>PRFUM</Name>
+					<Type>Normal</Type>
+					<Latitude>35.506750</Latitude>
+					<Longitude>-113.943083</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>SINHO</Name>
+					<Type>Normal</Type>
+					<Latitude>35.338053</Latitude>
+					<Longitude>-113.630942</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>DRK</Name>
+					<Type>Normal</Type>
+					<Latitude>34.702556</Latitude>
+					<Longitude>-112.480350</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="5">
+					<Name>HATRK</Name>
+					<Type>Normal</Type>
+					<Latitude>34.520786</Latitude>
+					<Longitude>-112.302639</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="6">
+					<Name>WEBAD</Name>
+					<Type>Normal</Type>
+					<Latitude>34.331056</Latitude>
+					<Longitude>-112.200322</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="HEC">
+				<StarTr_Waypoint ID="1">
+					<Name>HEC</Name>
+					<Type>Normal</Type>
+					<Latitude>34.797028</Latitude>
+					<Longitude>-116.462919</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>GFS</Name>
+					<Type>Normal</Type>
+					<Latitude>35.131144</Latitude>
+					<Longitude>-115.176442</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>PRFUM</Name>
+					<Type>Normal</Type>
+					<Latitude>35.506750</Latitude>
+					<Longitude>-113.943083</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>SINHO</Name>
+					<Type>Normal</Type>
+					<Latitude>35.338053</Latitude>
+					<Longitude>-113.630942</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="5">
+					<Name>DRK</Name>
+					<Type>Normal</Type>
+					<Latitude>34.702556</Latitude>
+					<Longitude>-112.480350</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="6">
+					<Name>HATRK</Name>
+					<Type>Normal</Type>
+					<Latitude>34.520786</Latitude>
+					<Longitude>-112.302639</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="7">
+					<Name>WEBAD</Name>
+					<Type>Normal</Type>
+					<Latitude>34.331056</Latitude>
+					<Longitude>-112.200322</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="JESSE1">
+			<Star_Waypoint ID="1">
+				<Name>JESSE</Name>
+				<Type>Normal</Type>
+				<Latitude>34.583533</Latitude>
+				<Longitude>-110.943764</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>GUMMO</Name>
+				<Type>Normal</Type>
+				<Latitude>34.317664</Latitude>
+				<Longitude>-111.025675</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>EAGUL</Name>
+				<Type>Normal</Type>
+				<Latitude>34.131736</Latitude>
+				<Longitude>-111.082706</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>DBACK</Name>
+				<Type>Normal</Type>
+				<Latitude>33.926236</Latitude>
+				<Longitude>-111.346106</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>HOMRR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.880478</Latitude>
+				<Longitude>-111.404447</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>VECTORS</Name>
+				<Type>Vectors</Type>
+				<Latitude>33.880478</Latitude>
+				<Longitude>-111.404447</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>225</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Star_Waypoint>
+			<Star_Transition Name="INW">
+				<StarTr_Waypoint ID="1">
+					<Name>INW</Name>
+					<Type>Normal</Type>
+					<Latitude>35.061603</Latitude>
+					<Longitude>-110.795028</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="GUP">
+				<StarTr_Waypoint ID="1">
+					<Name>GUP</Name>
+					<Type>Normal</Type>
+					<Latitude>35.476000</Latitude>
+					<Longitude>-108.872611</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>NEPTN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.751453</Latitude>
+					<Longitude>-110.175058</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="ZUN">
+				<StarTr_Waypoint ID="1">
+					<Name>ZUN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.965753</Latitude>
+					<Longitude>-109.154508</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>NEPTN</Name>
+					<Type>Normal</Type>
+					<Latitude>34.751453</Latitude>
+					<Longitude>-110.175058</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="SUNSS5">
+			<Star_Waypoint ID="1">
+				<Name>SUNSS</Name>
+				<Type>Normal</Type>
+				<Latitude>33.041686</Latitude>
+				<Longitude>-111.566969</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>HOOPS</Name>
+				<Type>Normal</Type>
+				<Latitude>33.319544</Latitude>
+				<Longitude>-111.852761</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>PXR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Transition Name="SSO">
+				<StarTr_Waypoint ID="1">
+					<Name>SSO</Name>
+					<Type>Normal</Type>
+					<Latitude>32.269244</Latitude>
+					<Longitude>-109.263086</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>ITEMM</Name>
+					<Type>Normal</Type>
+					<Latitude>32.586481</Latitude>
+					<Longitude>-110.589769</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>CROME</Name>
+					<Type>Normal</Type>
+					<Latitude>32.723689</Latitude>
+					<Longitude>-111.185569</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>SLAMN</Name>
+					<Type>Normal</Type>
+					<Latitude>32.740597</Latitude>
+					<Longitude>-111.260044</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="5">
+					<Name>BBALL</Name>
+					<Type>Normal</Type>
+					<Latitude>32.965789</Latitude>
+					<Longitude>-111.489339</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="TUS">
+				<StarTr_Waypoint ID="1">
+					<Name>TUS</Name>
+					<Type>Normal</Type>
+					<Latitude>32.095189</Latitude>
+					<Longitude>-110.914869</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>DUNKK</Name>
+					<Type>Normal</Type>
+					<Latitude>32.975236</Latitude>
+					<Longitude>-111.520656</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Approach Name="ILS07L">
+			<App_Waypoint ID="1">
+				<Name>FOWLE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.428944</Latitude>
+				<Longitude>-112.211536</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>REYNO</Name>
+				<Type>Normal</Type>
+				<Latitude>33.431061</Latitude>
+				<Longitude>-112.106564</Longitude>
+				<Speed>170</Speed>
+				<Altitude>2600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW07L</Name>
+				<Type>Runway</Type>
+				<Latitude>33.431058</Latitude>
+				<Longitude>-112.027100</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1135</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(5000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>78</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>PXR</Name>
+				<Type>Normal</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>PXR</Name>
+				<Type>Hold</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Rad</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>75</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="ILS08">
+			<App_Waypoint ID="1">
+				<Name>JAMIL</Name>
+				<Type>Normal</Type>
+				<Latitude>33.440886</Latitude>
+				<Longitude>-112.214239</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>WAZUP</Name>
+				<Type>Normal</Type>
+				<Latitude>33.440908</Latitude>
+				<Longitude>-112.142739</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW08</Name>
+				<Type>Runway</Type>
+				<Latitude>33.440861</Latitude>
+				<Longitude>-112.029808</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1135</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(2500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>78</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>PXR</Name>
+				<Type>VorRadialIntc</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>280</Hdg_Crs_value>
+				<RadialtoIntercept>336</RadialtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>AVENT</Name>
+				<Type>Normal</Type>
+				<Latitude>33.692147</Latitude>
+				<Longitude>-112.036092</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>AVENT</Name>
+				<Type>Hold</Type>
+				<Latitude>33.692147</Latitude>
+				<Longitude>-112.036092</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Rad</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>336</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="ILIKE">
+				<AppTr_Waypoint ID="1">
+					<Name>ILIKE</Name>
+					<Type>Normal</Type>
+					<Latitude>33.440822</Latitude>
+					<Longitude>-112.285742</Longitude>
+					<Speed>0</Speed>
+					<Altitude>5000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="ILS07R">
+			<App_Waypoint ID="1">
+				<Name>BALTE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.428831</Latitude>
+				<Longitude>-112.211311</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>TOTIE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.428872</Latitude>
+				<Longitude>-112.139817</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW07R</Name>
+				<Type>Runway</Type>
+				<Latitude>33.428858</Latitude>
+				<Longitude>-112.027103</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1135</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(3000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>78</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>PXR</Name>
+				<Type>VorRadialIntc</Type>
+				<Latitude>33.433017</Latitude>
+				<Longitude>-111.970200</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>250</Hdg_Crs_value>
+				<RadialtoIntercept>163</RadialtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>POPKE</Name>
+				<Type>Normal</Type>
+				<Latitude>33.183664</Latitude>
+				<Longitude>-111.942064</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>POPKE</Name>
+				<Type>Hold</Type>
+				<Latitude>33.183664</Latitude>
+				<Longitude>-111.942064</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Rad</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>163</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="CAGOR">
+				<AppTr_Waypoint ID="1">
+					<Name>CAGOR</Name>
+					<Type>Normal</Type>
+					<Latitude>33.428744</Latitude>
+					<Longitude>-112.282803</Longitude>
+					<Speed>0</Speed>
+					<Altitude>5000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

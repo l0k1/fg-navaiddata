@@ -1,0 +1,208 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="EPGD">
+		<Approach Name="ILS29">
+			<App_Waypoint ID="1">
+				<Name>IF29</Name>
+				<Type>Normal</Type>
+				<Latitude>54.323076</Latitude>
+				<Longitude>18.692690</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2790</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>IGDA/4</Name>
+				<Type>Normal</Type>
+				<Latitude>54.347212</Latitude>
+				<Longitude>18.592262</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1650</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW29</Name>
+				<Type>Runway</Type>
+				<Latitude>54.371267</Latitude>
+				<Longitude>18.491717</Longitude>
+				<Speed>0</Speed>
+				<Altitude>488</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(1050)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1050</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>289</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>KRT</Name>
+				<Type>Normal</Type>
+				<Latitude>54.299736</Latitude>
+				<Longitude>18.207994</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>KRT</Name>
+				<Type>Hold</Type>
+				<Latitude>54.299736</Latitude>
+				<Longitude>18.207994</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>333</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="KRT">
+				<AppTr_Waypoint ID="1">
+					<Name>KRT</Name>
+					<Type>Normal</Type>
+					<Latitude>54.299736</Latitude>
+					<Longitude>18.207994</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2800</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>KRT/19</Name>
+					<Type>Normal</Type>
+					<Latitude>54.264217</Latitude>
+					<Longitude>18.749872</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>(INTC)</Name>
+					<Type>Normal</Type>
+					<Latitude>54.307789</Latitude>
+					<Longitude>18.756057</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="NDB29">
+			<App_Waypoint ID="1">
+				<Name>IF29</Name>
+				<Type>Normal</Type>
+				<Latitude>54.323076</Latitude>
+				<Longitude>18.692690</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>GDA</Name>
+				<Type>Normal</Type>
+				<Latitude>54.345158</Latitude>
+				<Longitude>18.596075</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2040</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>S</Name>
+				<Type>Normal</Type>
+				<Latitude>54.367750</Latitude>
+				<Longitude>18.505894</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW29</Name>
+				<Type>Runway</Type>
+				<Latitude>54.371267</Latitude>
+				<Longitude>18.491717</Longitude>
+				<Speed>0</Speed>
+				<Altitude>488</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(1320)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1320</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>289</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>KRT</Name>
+				<Type>Normal</Type>
+				<Latitude>54.299736</Latitude>
+				<Longitude>18.207994</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>KRT</Name>
+				<Type>Hold</Type>
+				<Latitude>54.299736</Latitude>
+				<Longitude>18.207994</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>333</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="KRT">
+				<AppTr_Waypoint ID="1">
+					<Name>KRT</Name>
+					<Type>Normal</Type>
+					<Latitude>54.299736</Latitude>
+					<Longitude>18.207994</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2800</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>KRT/18</Name>
+					<Type>Normal</Type>
+					<Latitude>54.277017</Latitude>
+					<Longitude>18.714749</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

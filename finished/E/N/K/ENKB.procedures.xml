@@ -1,0 +1,1322 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="ENKB">
+		<Sid Name="BOLN1C" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.125722</Latitude>
+				<Longitude>7.911091</Longitude>
+				<Speed>0</Speed>
+				<Altitude>600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(TURN)</Name>
+				<Type>Normal</Type>
+				<Latitude>63.170193</Latitude>
+				<Longitude>7.902723</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(1600)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>310</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>220</Hdg_Crs_value>
+				<RadialtoIntercept>238</RadialtoIntercept>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>BOLNI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.926389</Latitude>
+				<Longitude>7.193333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+		</Sid>
+		<Sid Name="INLA1C" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.125722</Latitude>
+				<Longitude>7.911091</Longitude>
+				<Speed>0</Speed>
+				<Altitude>600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(TURN)</Name>
+				<Type>Normal</Type>
+				<Latitude>63.170193</Latitude>
+				<Longitude>7.902723</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(2200)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>310</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>KVB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>ARKUD</Name>
+				<Type>Normal</Type>
+				<Latitude>62.921389</Latitude>
+				<Longitude>7.973611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="6">
+				<Name>INLAS</Name>
+				<Type>Normal</Type>
+				<Latitude>62.651389</Latitude>
+				<Longitude>8.193889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="TONDI">
+				<SidTr_Waypoint ID="1">
+					<Name>TONDI</Name>
+					<Type>Normal</Type>
+					<Latitude>62.000000</Latitude>
+					<Longitude>8.707778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="TURS1C" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.125722</Latitude>
+				<Longitude>7.911091</Longitude>
+				<Speed>0</Speed>
+				<Altitude>600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(TURN)</Name>
+				<Type>Normal</Type>
+				<Latitude>63.170193</Latitude>
+				<Longitude>7.902723</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(3300)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>320</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>100</Hdg_Crs_value>
+				<RadialtoIntercept>74</RadialtoIntercept>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>TURSI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.227500</Latitude>
+				<Longitude>8.581389</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+		</Sid>
+		<Sid Name="VAGS1C" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.125722</Latitude>
+				<Longitude>7.911091</Longitude>
+				<Speed>0</Speed>
+				<Altitude>600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(TURN)</Name>
+				<Type>Normal</Type>
+				<Latitude>63.170193</Latitude>
+				<Longitude>7.902723</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(2200)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>310</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>200</Hdg_Crs_value>
+				<RadialtoIntercept>207</RadialtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>VAGSI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.811111</Latitude>
+				<Longitude>7.500000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="FLS">
+				<SidTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="INLA1W" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KVB</Name>
+				<Type>DmeIntc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>73</Hdg_Crs_value>
+				<DMEtoIntercept>04.0</DMEtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(1800)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>73</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>200</Hdg_Crs_value>
+				<RadialtoIntercept>161</RadialtoIntercept>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>ARKUD</Name>
+				<Type>Normal</Type>
+				<Latitude>62.921389</Latitude>
+				<Longitude>7.973611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>EKNES</Name>
+				<Type>Normal</Type>
+				<Latitude>62.804444</Latitude>
+				<Longitude>8.069722</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="6">
+				<Name>INLAS</Name>
+				<Type>Normal</Type>
+				<Latitude>62.651389</Latitude>
+				<Longitude>8.193889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="TONDI">
+				<SidTr_Waypoint ID="1">
+					<Name>TONDI</Name>
+					<Type>Normal</Type>
+					<Latitude>62.000000</Latitude>
+					<Longitude>8.707778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="VAGS1W" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KVB</Name>
+				<Type>DmeIntc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>73</Hdg_Crs_value>
+				<DMEtoIntercept>04.0</DMEtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(1800)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>73</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>240</Hdg_Crs_value>
+				<RadialtoIntercept>207</RadialtoIntercept>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>VAGSI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.811111</Latitude>
+				<Longitude>7.500000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="FLS">
+				<SidTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="TURS1W" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>KVB</Name>
+				<Type>DmeIntc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>73</Hdg_Crs_value>
+				<DMEtoIntercept>02.0</DMEtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>KVB/11</Name>
+				<Type>Normal</Type>
+				<Latitude>63.128378</Latitude>
+				<Longitude>8.215445</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>45</Hdg_Crs_value>
+				<RadialtoIntercept>74</RadialtoIntercept>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>TURSI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.227500</Latitude>
+				<Longitude>8.581389</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+		</Sid>
+		<Sid Name="BOLN1D" Runways="25">
+			<Sid_Waypoint ID="1">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(3500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>254</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>220</Hdg_Crs_value>
+				<RadialtoIntercept>238</RadialtoIntercept>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>BOLNI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.926389</Latitude>
+				<Longitude>7.193333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+		</Sid>
+		<Sid Name="VAGS1D" Runways="25">
+			<Sid_Waypoint ID="1">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(3500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>254</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>170</Hdg_Crs_value>
+				<RadialtoIntercept>207</RadialtoIntercept>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>VAGSI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.811111</Latitude>
+				<Longitude>7.500000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="FLS">
+				<SidTr_Waypoint ID="1">
+					<Name>FLS</Name>
+					<Type>Normal</Type>
+					<Latitude>60.311261</Latitude>
+					<Longitude>5.212194</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="INLA1D" Runways="25">
+			<Sid_Waypoint ID="1">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(3500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>254</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>120</Hdg_Crs_value>
+				<RadialtoIntercept>161</RadialtoIntercept>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>ARKUD</Name>
+				<Type>Normal</Type>
+				<Latitude>62.921389</Latitude>
+				<Longitude>7.973611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="5">
+				<Name>EKNES</Name>
+				<Type>Normal</Type>
+				<Latitude>62.804444</Latitude>
+				<Longitude>8.069722</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="6">
+				<Name>INLAS</Name>
+				<Type>Normal</Type>
+				<Latitude>62.651389</Latitude>
+				<Longitude>8.193889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="TONDI">
+				<SidTr_Waypoint ID="1">
+					<Name>TONDI</Name>
+					<Type>Normal</Type>
+					<Latitude>62.000000</Latitude>
+					<Longitude>8.707778</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="TURS1D" Runways="25">
+			<Sid_Waypoint ID="1">
+				<Name>(1500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>254</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>(TURN)</Name>
+				<Type>Normal</Type>
+				<Latitude>63.150733</Latitude>
+				<Longitude>7.669765</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>(INTC)</Name>
+				<Type>Intc</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>95</Hdg_Crs_value>
+				<RadialtoIntercept>74</RadialtoIntercept>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="4">
+				<Name>TURSI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.227500</Latitude>
+				<Longitude>8.581389</Longitude>
+				<Speed>4300</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+		</Sid>
+		<Star Name="TINK2V">
+			<Star_Waypoint ID="1">
+				<Name>TINKO</Name>
+				<Type>Normal</Type>
+				<Latitude>61.925611</Latitude>
+				<Longitude>6.635767</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>KB421</Name>
+				<Type>Normal</Type>
+				<Latitude>62.765553</Latitude>
+				<Longitude>7.102197</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>BOLNI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.926389</Latitude>
+				<Longitude>7.193333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>BATSO</Name>
+				<Type>Normal</Type>
+				<Latitude>62.954444</Latitude>
+				<Longitude>7.210833</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>VEVAS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.023333</Latitude>
+				<Longitude>7.253611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>AVERI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.046389</Latitude>
+				<Longitude>7.400278</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="BOLN1V">
+			<Star_Waypoint ID="1">
+				<Name>BOLNI</Name>
+				<Type>Normal</Type>
+				<Latitude>62.926389</Latitude>
+				<Longitude>7.193333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>BATSO</Name>
+				<Type>Normal</Type>
+				<Latitude>62.954444</Latitude>
+				<Longitude>7.210833</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>VEVAS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.023333</Latitude>
+				<Longitude>7.253611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>AVERI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.046389</Latitude>
+				<Longitude>7.400278</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="INLA1V">
+			<Star_Waypoint ID="1">
+				<Name>INLAS</Name>
+				<Type>Normal</Type>
+				<Latitude>62.651389</Latitude>
+				<Longitude>8.193889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>KB522</Name>
+				<Type>Normal</Type>
+				<Latitude>62.843917</Latitude>
+				<Longitude>7.574436</Longitude>
+				<Speed>0</Speed>
+				<Altitude>7000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>BATSO</Name>
+				<Type>Normal</Type>
+				<Latitude>62.954444</Latitude>
+				<Longitude>7.210833</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>VEVAS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.023333</Latitude>
+				<Longitude>7.253611</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>AVERI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.046389</Latitude>
+				<Longitude>7.400278</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="TINK2X">
+			<Star_Waypoint ID="1">
+				<Name>TINKO</Name>
+				<Type>Normal</Type>
+				<Latitude>61.925611</Latitude>
+				<Longitude>6.635767</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>LISNO</Name>
+				<Type>Normal</Type>
+				<Latitude>62.749444</Latitude>
+				<Longitude>8.114444</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>KB633</Name>
+				<Type>Normal</Type>
+				<Latitude>63.009961</Latitude>
+				<Longitude>8.392042</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>ARLAX</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084444</Latitude>
+				<Longitude>8.472500</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>TUSTA</Name>
+				<Type>Normal</Type>
+				<Latitude>63.134166</Latitude>
+				<Longitude>8.348888</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>TELRO</Name>
+				<Type>Normal</Type>
+				<Latitude>63.130277</Latitude>
+				<Longitude>8.213333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="INLA1X">
+			<Star_Waypoint ID="1">
+				<Name>INLAS</Name>
+				<Type>Normal</Type>
+				<Latitude>62.651389</Latitude>
+				<Longitude>8.193889</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>LISNO</Name>
+				<Type>Normal</Type>
+				<Latitude>62.749444</Latitude>
+				<Longitude>8.114444</Longitude>
+				<Speed>0</Speed>
+				<Altitude>7000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>KB633</Name>
+				<Type>Normal</Type>
+				<Latitude>63.009961</Latitude>
+				<Longitude>8.392042</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>ARLAX</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084444</Latitude>
+				<Longitude>8.472500</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>TUSTA</Name>
+				<Type>Normal</Type>
+				<Latitude>63.134166</Latitude>
+				<Longitude>8.348888</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>TELRO</Name>
+				<Type>Normal</Type>
+				<Latitude>63.130277</Latitude>
+				<Longitude>8.213333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Star Name="TURS2X">
+			<Star_Waypoint ID="1">
+				<Name>TURSI</Name>
+				<Type>Normal</Type>
+				<Latitude>63.227500</Latitude>
+				<Longitude>8.581389</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>TUSTA</Name>
+				<Type>Normal</Type>
+				<Latitude>63.134166</Latitude>
+				<Longitude>8.348888</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>TELRO</Name>
+				<Type>Normal</Type>
+				<Latitude>63.130277</Latitude>
+				<Longitude>8.213333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Approach Name="ILS07">
+			<App_Waypoint ID="1">
+				<Name>IF07</Name>
+				<Type>Normal</Type>
+				<Latitude>63.062573</Latitude>
+				<Longitude>7.499519</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1690</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW07</Name>
+				<Type>Runway</Type>
+				<Latitude>63.109167</Latitude>
+				<Longitude>7.806750</Longitude>
+				<Speed>0</Speed>
+				<Altitude>204</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.124896</Latitude>
+				<Longitude>7.911712</Longitude>
+				<Speed>0</Speed>
+				<Altitude>800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>320</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>KVB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>KVB</Name>
+				<Type>Hold</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>73</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="VOR07">
+			<App_Waypoint ID="1">
+				<Name>KVB/8</Name>
+				<Type>Normal</Type>
+				<Latitude>63.056565</Latitude>
+				<Longitude>7.549250</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2700</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>KVB/5</Name>
+				<Type>Normal</Type>
+				<Latitude>63.079709</Latitude>
+				<Longitude>7.647104</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1750</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW07</Name>
+				<Type>Runway</Type>
+				<Latitude>63.109167</Latitude>
+				<Longitude>7.806750</Longitude>
+				<Speed>0</Speed>
+				<Altitude>204</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(2500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>350</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>KVB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>KVB</Name>
+				<Type>Hold</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>73</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="VOR25">
+			<App_Waypoint ID="1">
+				<Name>TELRO</Name>
+				<Type>Normal</Type>
+				<Latitude>63.130277</Latitude>
+				<Longitude>8.213333</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>KVB/6</Name>
+				<Type>Normal</Type>
+				<Latitude>63.123864</Latitude>
+				<Longitude>8.031362</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2140</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW25</Name>
+				<Type>Runway</Type>
+				<Latitude>63.114578</Latitude>
+				<Longitude>7.842314</Longitude>
+				<Speed>0</Speed>
+				<Altitude>204</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(2500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>350</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>KVB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>KVB</Name>
+				<Type>Hold</Type>
+				<Latitude>63.118133</Latitude>
+				<Longitude>7.810539</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>73</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="NDB07">
+			<App_Waypoint ID="1">
+				<Name>IF07</Name>
+				<Type>Normal</Type>
+				<Latitude>63.062573</Latitude>
+				<Longitude>7.499519</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1690</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW07</Name>
+				<Type>Runway</Type>
+				<Latitude>63.109167</Latitude>
+				<Longitude>7.806750</Longitude>
+				<Speed>0</Speed>
+				<Altitude>204</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>KB</Name>
+				<Type>Normal</Type>
+				<Latitude>63.124896</Latitude>
+				<Longitude>7.911712</Longitude>
+				<Speed>0</Speed>
+				<Altitude>800</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(2500)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>320</Hdg_Crs_value>
+				<Sp_Turn>Left</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>BRS</Name>
+				<Type>Normal</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>BRS</Name>
+				<Type>Hold</Type>
+				<Latitude>63.084806</Latitude>
+				<Longitude>7.647858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>73</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+	</Airport>
+</ProceduresDB>

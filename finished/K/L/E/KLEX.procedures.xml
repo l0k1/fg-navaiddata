@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="ASCII"  standalone="yes"?>
+<ProceduresDB build="2005-09-29 01:18:08" version="1.0 by Pedro Sousa,Wade Chafe" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Airport ICAOcode="KLEX">
+		<Star Name="CLEGG1" Runways="All">
+			<Star_Waypoint ID="1">
+				<Name>CLEGG</Name>
+				<Type>Normal</Type>
+				<Latitude>38.185914</Latitude>
+				<Longitude>-84.902400</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Flytype>Fly-by</Flytype>
+				<Sp_Turn>Auto</Sp_Turn>
+			</Star_Waypoint>
+		<Star_Transition Name="IIU">
+				<StarTr_Waypoint ID="1">
+					<Name>IIU</Name>
+					<Type>Normal</Type>
+					<Latitude>38.103464</Latitude>
+					<Longitude>-85.577436</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		<Star_Transition Name="CVG">
+				<StarTr_Waypoint ID="1">
+					<Name>CVG</Name>
+					<Type>Normal</Type>
+					<Latitude>39.015981</Latitude>
+					<Longitude>-84.703347</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>WARSA</Name>
+					<Type>Normal</Type>
+					<Latitude>38.763314</Latitude>
+					<Longitude>-84.948236</Longitude>
+					<Speed>0</Speed>
+					<Altitude>14000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>NERVE</Name>
+					<Type>Normal</Type>
+					<Latitude>38.615628</Latitude>
+					<Longitude>-85.090344</Longitude>
+					<Speed>0</Speed>
+					<Altitude>12000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>RDSTN</Name>
+					<Type>Normal</Type>
+					<Latitude>38.389614</Latitude>
+					<Longitude>-85.306397</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Flytype>Fly-by</Flytype>
+					<Sp_Turn>Auto</Sp_Turn>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Approach Name="ILS04">
+			<App_Waypoint ID="1">
+				<Name>BLAYD</Name>
+				<Type>Normal</Type>
+				<Latitude>37.987044</Latitude>
+				<Longitude>-84.660450</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>RW04</Name>
+				<Type>Runway</Type>
+				<Latitude>38.028358</Latitude>
+				<Longitude>-84.614358</Longitude>
+				<Speed>0</Speed>
+				<Altitude>979</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>(3000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>46</Hdg_Crs_value>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>HYK</Name>
+				<Type>Normal</Type>
+				<Latitude>37.966350</Latitude>
+				<Longitude>-84.472517</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>HYK</Name>
+				<Type>Hold</Type>
+				<Latitude>37.966350</Latitude>
+				<Longitude>-84.472517</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>304</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="MCFEE">
+				<AppTr_Waypoint ID="1">
+					<Name>MCFEE</Name>
+					<Type>Normal</Type>
+					<Latitude>37.855050</Latitude>
+					<Longitude>-84.879383</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>SAAPP</Name>
+					<Type>Normal</Type>
+					<Latitude>37.883403</Latitude>
+					<Longitude>-84.776433</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="BLAYD">
+				<AppTr_Waypoint ID="1">
+					<Name>BLAYD</Name>
+					<Type>Normal</Type>
+					<Latitude>37.987044</Latitude>
+					<Longitude>-84.660450</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>BLA01</Name>
+					<Type>Normal</Type>
+					<Latitude>37.924402</Latitude>
+					<Longitude>-84.730151</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BLA02</Name>
+					<Type>Normal</Type>
+					<Latitude>37.918875</Latitude>
+					<Longitude>-84.780522</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>BLA03</Name>
+					<Type>Normal</Type>
+					<Latitude>37.898250</Latitude>
+					<Longitude>-84.786575</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>BLA04</Name>
+					<Type>Normal</Type>
+					<Latitude>37.899333</Latitude>
+					<Longitude>-84.757998</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>BLAYD</Name>
+					<Type>Normal</Type>
+					<Latitude>37.987044</Latitude>
+					<Longitude>-84.660450</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="HYK">
+				<AppTr_Waypoint ID="1">
+					<Name>HYK</Name>
+					<Type>Normal</Type>
+					<Latitude>37.966350</Latitude>
+					<Longitude>-84.472517</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>BLAYD</Name>
+					<Type>Normal</Type>
+					<Latitude>37.987044</Latitude>
+					<Longitude>-84.660450</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BLA01</Name>
+					<Type>Normal</Type>
+					<Latitude>37.924402</Latitude>
+					<Longitude>-84.730151</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>BLA02</Name>
+					<Type>Normal</Type>
+					<Latitude>37.918875</Latitude>
+					<Longitude>-84.780522</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>BLA03</Name>
+					<Type>Normal</Type>
+					<Latitude>37.898250</Latitude>
+					<Longitude>-84.786575</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>BLA04</Name>
+					<Type>Normal</Type>
+					<Latitude>37.899333</Latitude>
+					<Longitude>-84.757998</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>BLAYD</Name>
+					<Type>Normal</Type>
+					<Latitude>37.987044</Latitude>
+					<Longitude>-84.660450</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="ILS22">
+			<App_Waypoint ID="1">
+				<Name>BRIDL</Name>
+				<Type>Normal</Type>
+				<Latitude>38.124539</Latitude>
+				<Longitude>-84.507017</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>RW22</Name>
+				<Type>Runway</Type>
+				<Latitude>38.042744</Latitude>
+				<Longitude>-84.598228</Longitude>
+				<Speed>0</Speed>
+				<Altitude>979</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>226</Hdg_Crs_value>
+				<Sp_Turn>Auto</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>HYK</Name>
+				<Type>Normal</Type>
+				<Latitude>37.966350</Latitude>
+				<Longitude>-84.472517</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>HYK</Name>
+				<Type>Hold</Type>
+				<Latitude>37.966350</Latitude>
+				<Longitude>-84.472517</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>304</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="SADDL">
+				<AppTr_Waypoint ID="1">
+					<Name>SADDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.204219</Latitude>
+					<Longitude>-84.416472</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="BRIDL">
+				<AppTr_Waypoint ID="1">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>BRI01</Name>
+					<Type>Normal</Type>
+					<Latitude>38.187294</Latitude>
+					<Longitude>-84.437289</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BRI02</Name>
+					<Type>Normal</Type>
+					<Latitude>38.227411</Latitude>
+					<Longitude>-84.437013</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>BRI03</Name>
+					<Type>Normal</Type>
+					<Latitude>38.234879</Latitude>
+					<Longitude>-84.411794</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>BRI04</Name>
+					<Type>Normal</Type>
+					<Latitude>38.212384</Latitude>
+					<Longitude>-84.409363</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="GENUS">
+				<AppTr_Waypoint ID="1">
+					<Name>GENUS</Name>
+					<Type>Normal</Type>
+					<Latitude>38.330753</Latitude>
+					<Longitude>-84.551844</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BRI01</Name>
+					<Type>Normal</Type>
+					<Latitude>38.187294</Latitude>
+					<Longitude>-84.437289</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>BRI02</Name>
+					<Type>Normal</Type>
+					<Latitude>38.227411</Latitude>
+					<Longitude>-84.437013</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>BRI03</Name>
+					<Type>Normal</Type>
+					<Latitude>38.234879</Latitude>
+					<Longitude>-84.411794</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>BRI04</Name>
+					<Type>Normal</Type>
+					<Latitude>38.212384</Latitude>
+					<Longitude>-84.409363</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="HYK">
+				<AppTr_Waypoint ID="1">
+					<Name>HYK</Name>
+					<Type>Normal</Type>
+					<Latitude>37.966350</Latitude>
+					<Longitude>-84.472517</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="3">
+					<Name>BRI01</Name>
+					<Type>Normal</Type>
+					<Latitude>38.187294</Latitude>
+					<Longitude>-84.437289</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="4">
+					<Name>BRI02</Name>
+					<Type>Normal</Type>
+					<Latitude>38.227411</Latitude>
+					<Longitude>-84.437013</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="5">
+					<Name>BRI03</Name>
+					<Type>Normal</Type>
+					<Latitude>38.234879</Latitude>
+					<Longitude>-84.411794</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="6">
+					<Name>BRI04</Name>
+					<Type>Normal</Type>
+					<Latitude>38.212384</Latitude>
+					<Longitude>-84.409363</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="7">
+					<Name>BRIDL</Name>
+					<Type>Normal</Type>
+					<Latitude>38.124539</Latitude>
+					<Longitude>-84.507017</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="RNAV04">
+			<App_Waypoint ID="1">
+				<Name>SAAPP</Name>
+				<Type>Normal</Type>
+				<Latitude>37.883403</Latitude>
+				<Longitude>-84.776433</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>TUBBE</Name>
+				<Type>Normal</Type>
+				<Latitude>37.966494</Latitude>
+				<Longitude>-84.683617</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW04</Name>
+				<Type>Runway</Type>
+				<Latitude>38.028358</Latitude>
+				<Longitude>-84.614358</Longitude>
+				<Speed>0</Speed>
+				<Altitude>979</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>UPRAW</Name>
+				<Type>Normal</Type>
+				<Latitude>38.166242</Latitude>
+				<Longitude>-84.459406</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>UPRAW</Name>
+				<Type>Hold</Type>
+				<Latitude>38.166242</Latitude>
+				<Longitude>-84.459406</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>46</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="UUKAY">
+				<AppTr_Waypoint ID="1">
+					<Name>UUKAY</Name>
+					<Type>Normal</Type>
+					<Latitude>37.938625</Latitude>
+					<Longitude>-84.855364</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="FRNZI">
+				<AppTr_Waypoint ID="1">
+					<Name>FRNZI</Name>
+					<Type>Normal</Type>
+					<Latitude>37.828128</Latitude>
+					<Longitude>-84.697619</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="RNAV22">
+			<App_Waypoint ID="1">
+				<Name>UPRAW</Name>
+				<Type>Normal</Type>
+				<Latitude>38.166242</Latitude>
+				<Longitude>-84.459406</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>MUMME</Name>
+				<Type>Normal</Type>
+				<Latitude>38.103492</Latitude>
+				<Longitude>-84.529467</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW22</Name>
+				<Type>Runway</Type>
+				<Latitude>38.042744</Latitude>
+				<Longitude>-84.598228</Longitude>
+				<Speed>0</Speed>
+				<Altitude>979</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>SAAPP</Name>
+				<Type>Normal</Type>
+				<Latitude>37.883403</Latitude>
+				<Longitude>-84.776433</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>SAAPP</Name>
+				<Type>Hold</Type>
+				<Latitude>37.883403</Latitude>
+				<Longitude>-84.776433</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>226</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="SIRBE">
+				<AppTr_Waypoint ID="1">
+					<Name>SIRBE</Name>
+					<Type>Normal</Type>
+					<Latitude>38.110772</Latitude>
+					<Longitude>-84.380508</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="VICGO">
+				<AppTr_Waypoint ID="1">
+					<Name>VICGO</Name>
+					<Type>Normal</Type>
+					<Latitude>38.221669</Latitude>
+					<Longitude>-84.538408</Longitude>
+					<Speed>0</Speed>
+					<Altitude>3200</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>	</ProceduresDB>

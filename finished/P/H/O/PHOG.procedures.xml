@@ -1,0 +1,118 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="PHOG">
+		<Approach Name="ILS02">
+			<App_Waypoint ID="1">
+				<Name>CAMPS</Name>
+				<Type>Normal</Type>
+				<Latitude>20.665261</Latitude>
+				<Longitude>-156.602608</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>TEBBS</Name>
+				<Type>Normal</Type>
+				<Latitude>20.756822</Latitude>
+				<Longitude>-156.534675</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RITTI</Name>
+				<Type>Normal</Type>
+				<Latitude>20.803717</Latitude>
+				<Longitude>-156.499842</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2300</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW02</Name>
+				<Type>Runway</Type>
+				<Latitude>20.889139</Latitude>
+				<Longitude>-156.436319</Longitude>
+				<Speed>0</Speed>
+				<Altitude>54</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>(3000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>25</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>OGG</Name>
+				<Type>Normal</Type>
+				<Latitude>20.906450</Latitude>
+				<Longitude>-156.420964</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="7">
+				<Name>CAMPS</Name>
+				<Type>Normal</Type>
+				<Latitude>20.665261</Latitude>
+				<Longitude>-156.602608</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="8">
+				<Name>CAMPS</Name>
+				<Type>Hold</Type>
+				<Latitude>20.665261</Latitude>
+				<Longitude>-156.602608</Longitude>
+				<Speed>0</Speed>
+				<Altitude>5000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Rad</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>275</Hld_Rad_value>
+				<Hld_Turn>Left</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="KEIKI">
+				<AppTr_Waypoint ID="1">
+					<Name>KEIKI</Name>
+					<Type>Normal</Type>
+					<Latitude>20.685869</Latitude>
+					<Longitude>-156.678406</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+			<App_Transition Name="HARPO">
+				<AppTr_Waypoint ID="1">
+					<Name>HARPO</Name>
+					<Type>Normal</Type>
+					<Latitude>20.641486</Latitude>
+					<Longitude>-156.515356</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

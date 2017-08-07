@@ -1,0 +1,191 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="EKSP">
+		<Approach Name="ILS29R">
+			<App_Waypoint ID="1">
+				<Name>SP</Name>
+				<Type>Normal</Type>
+				<Latitude>55.191232</Latitude>
+				<Longitude>9.458604</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>RW29R</Name>
+				<Type>Runway</Type>
+				<Latitude>55.217408</Latitude>
+				<Longitude>9.289475</Longitude>
+				<Speed>0</Speed>
+				<Altitude>141</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>wEST</Name>
+				<Type>Normal</Type>
+				<Latitude>55.253140</Latitude>
+				<Longitude>9.043872</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>wEST</Name>
+				<Type>Hold</Type>
+				<Latitude>55.253140</Latitude>
+				<Longitude>9.043872</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>105</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="DINUT">
+				<AppTr_Waypoint ID="1">
+					<Name>DINUT</Name>
+					<Type>Normal</Type>
+					<Latitude>55.166390</Latitude>
+					<Longitude>9.608056</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="VOR29R">
+			<App_Waypoint ID="1">
+				<Name>SKR/9</Name>
+				<Type>Normal</Type>
+				<Latitude>55.189662</Latitude>
+				<Longitude>9.467776</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>RW29R</Name>
+				<Type>Runway</Type>
+				<Latitude>55.217408</Latitude>
+				<Longitude>9.289475</Longitude>
+				<Speed>0</Speed>
+				<Altitude>141</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>wEST</Name>
+				<Type>Normal</Type>
+				<Latitude>55.253140</Latitude>
+				<Longitude>9.043872</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>wEST</Name>
+				<Type>Hold</Type>
+				<Latitude>55.253140</Latitude>
+				<Longitude>9.043872</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>105</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="DINUT">
+				<AppTr_Waypoint ID="1">
+					<Name>DINUT</Name>
+					<Type>Normal</Type>
+					<Latitude>55.166390</Latitude>
+					<Longitude>9.608056</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="VOR11L">
+			<App_Waypoint ID="1">
+				<Name>SKR/5</Name>
+				<Type>Normal</Type>
+				<Latitude>55.251392</Latitude>
+				<Longitude>9.067238</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>SKR</Name>
+				<Type>Normal</Type>
+				<Latitude>55.228939</Latitude>
+				<Longitude>9.214058</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW11L</Name>
+				<Type>Runway</Type>
+				<Latitude>55.224600</Latitude>
+				<Longitude>9.243942</Longitude>
+				<Speed>0</Speed>
+				<Altitude>141</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>EAST</Name>
+				<Type>Normal</Type>
+				<Latitude>55.196303</Latitude>
+				<Longitude>9.440649</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>EAST</Name>
+				<Type>Hold</Type>
+				<Latitude>55.196303</Latitude>
+				<Longitude>9.440649</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>285</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="TISET">
+				<AppTr_Waypoint ID="1">
+					<Name>TISET</Name>
+					<Type>Normal</Type>
+					<Latitude>55.277230</Latitude>
+					<Longitude>8.906842</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+	</Airport>
+</ProceduresDB>

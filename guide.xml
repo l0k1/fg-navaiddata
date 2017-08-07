@@ -1,0 +1,34 @@
+full: https://sourceforge.net/p/flightgear/fgdata/ci/b9c779777c1b7656fa5cb26621811f403a50b894/#diff-4
+
+    <Airport ICAOcode="KTCM">
+        <Star Name="WHYTE FIVE 34" Runways="34">
+            <Star_Waypoint ID="1">
+                <Name>WHYTE</Name>
+                <Type>Normal</Type>
+                <Latitude></Latitude>
+                <Longitude></Longitude>
+                <Speed></Speed>
+                <Altitude></Altitude>
+                <AltitudeRestriction></AltitudeRestriction>
+            </Star_Waypoint>
+        </Star>
+		<Star_Waypoint ID="3">
+			<Name>GIR</Name>
+			<Type>Hold</Type>
+			<Latitude>41.931178</Latitude>
+			<Longitude>2.771967</Longitude>
+			<Hld_Rad_value>185</Hld_Rad_value>
+			<Hld_Turn>Right</Hld_Turn>
+			<Hld_Rad_or_Inbd>Rad</Hld_Rad_or_Inbd>
+			<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+			<Hld_td_value>1.0</Hld_td_value>
+		</Star_Waypoint>
+		
+		<Altitude>16000</Altitude>
+        <AltitudeCons>14000</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction> <!--examples used above unless ils-->
+        
+        -----
+        16000
+        14000
+        -----

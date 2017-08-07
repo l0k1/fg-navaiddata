@@ -1,0 +1,312 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="EKYT">
+		<Approach Name="ILS08L">
+			<App_Waypoint ID="1">
+				<Name>IF08L</Name>
+				<Type>Normal</Type>
+				<Latitude>57.080454</Latitude>
+				<Longitude>9.632415</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>GL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.083819</Latitude>
+				<Longitude>9.680092</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1510</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>AE/4</Name>
+				<Type>Normal</Type>
+				<Latitude>57.088530</Latitude>
+				<Longitude>9.754195</Longitude>
+				<Speed>0</Speed>
+				<Altitude>840</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW08L</Name>
+				<Type>Runway</Type>
+				<Latitude>57.093714</Latitude>
+				<Longitude>9.833381</Longitude>
+				<Speed>0</Speed>
+				<Altitude>10</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>AAL</Name>
+				<Type>Hold</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>263</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="AMINO">
+				<AppTr_Waypoint ID="1">
+					<Name>AMINO</Name>
+					<Type>Normal</Type>
+					<Latitude>57.072222</Latitude>
+					<Longitude>9.507500</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2300</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>AE/9</Name>
+					<Type>Normal</Type>
+					<Latitude>57.078417</Latitude>
+					<Longitude>9.601978</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2300</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="ILS26R">
+			<App_Waypoint ID="1">
+				<Name>IF26R</Name>
+				<Type>Normal</Type>
+				<Latitude>57.109998</Latitude>
+				<Longitude>10.087151</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1200</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW26R</Name>
+				<Type>Runway</Type>
+				<Latitude>57.096511</Latitude>
+				<Longitude>9.876875</Longitude>
+				<Speed>0</Speed>
+				<Altitude>10</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>263</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>AAL</Name>
+				<Type>Hold</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>263</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+			<App_Transition Name="BAKIT">
+				<AppTr_Waypoint ID="1">
+					<Name>BAKIT</Name>
+					<Type>Normal</Type>
+					<Latitude>57.116110</Latitude>
+					<Longitude>10.193060</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2300</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</AppTr_Waypoint>
+				<AppTr_Waypoint ID="2">
+					<Name>YT/8</Name>
+					<Type>Normal</Type>
+					<Latitude>57.111923</Latitude>
+					<Longitude>10.117639</Longitude>
+					<Speed>0</Speed>
+					<Altitude>2300</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</AppTr_Waypoint>
+			</App_Transition>
+		</Approach>
+		<Approach Name="VOR26R">
+			<App_Waypoint ID="1">
+				<Name>AAL/3</Name>
+				<Type>Normal</Type>
+				<Latitude>57.109390</Latitude>
+				<Longitude>10.083962</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW26R</Name>
+				<Type>Runway</Type>
+				<Latitude>57.096511</Latitude>
+				<Longitude>9.876875</Longitude>
+				<Speed>0</Speed>
+				<Altitude>10</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>(2000)</Name>
+				<Type>ConstHdgtoAlt</Type>
+				<Latitude>0.000000</Latitude>
+				<Longitude>0.000000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hdg_Crs>1</Hdg_Crs>
+				<Hdg_Crs_value>263</Hdg_Crs_value>
+				<Sp_Turn>Right</Sp_Turn>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="6">
+				<Name>AAL</Name>
+				<Type>Hold</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>263</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="NDB08L">
+			<App_Waypoint ID="1">
+				<Name>AAL/12</Name>
+				<Type>Normal</Type>
+				<Latitude>57.079592</Latitude>
+				<Longitude>9.630143</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>GL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.083819</Latitude>
+				<Longitude>9.680092</Longitude>
+				<Speed>0</Speed>
+				<Altitude>1530</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>RW08L</Name>
+				<Type>Runway</Type>
+				<Latitude>57.093714</Latitude>
+				<Longitude>9.833381</Longitude>
+				<Speed>0</Speed>
+				<Altitude>10</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>AAL</Name>
+				<Type>Normal</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>AAL</Name>
+				<Type>Hold</Type>
+				<Latitude>57.103719</Latitude>
+				<Longitude>9.995578</Longitude>
+				<Speed>0</Speed>
+				<Altitude>2000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+				<Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+				<Hld_Rad_value>263</Hld_Rad_value>
+				<Hld_Turn>Right</Hld_Turn>
+				<Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+				<Hld_td_value>01.0</Hld_td_value>
+			</App_Waypoint>
+		</Approach>
+	</Airport>
+</ProceduresDB>

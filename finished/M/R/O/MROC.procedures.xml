@@ -1,0 +1,868 @@
+<ProceduresDB build='By Pedro Sousa, Wade Chafe, extracted by PROCIO 6a -Ian Mitchell'>
+	<Airport ICAOcode="MROC">
+		<Sid Name="PARAISO" Runways="07">
+			<Sid_Waypoint ID="1">
+				<Name>TIO01</Name>
+				<Type>Normal</Type>
+				<Latitude>10.008168</Latitude>
+				<Longitude>-84.173845</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>D108O</Name>
+				<Type>Normal</Type>
+				<Latitude>9.901669</Latitude>
+				<Longitude>-83.996800</Longitude>
+				<Speed>0</Speed>
+				<Altitude>8000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>PARAI</Name>
+				<Type>Normal</Type>
+				<Latitude>9.846667</Latitude>
+				<Longitude>-83.836667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>15000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="LIO">
+				<SidTr_Waypoint ID="1">
+					<Name>LIO</Name>
+					<Type>Normal</Type>
+					<Latitude>9.960000</Latitude>
+					<Longitude>-83.026667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="ISEBA">
+				<SidTr_Waypoint ID="1">
+					<Name>ISEBA</Name>
+					<Type>Normal</Type>
+					<Latitude>9.541278</Latitude>
+					<Longitude>-82.869861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+		</Sid>
+		<Sid Name="ATENAS" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>TIO01</Name>
+				<Type>Normal</Type>
+				<Latitude>9.876452</Latitude>
+				<Longitude>-84.366495</Longitude>
+				<Speed>0</Speed>
+				<Altitude>7000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="3">
+				<Name>TIO02</Name>
+				<Type>Normal</Type>
+				<Latitude>9.736493</Latitude>
+				<Longitude>-84.276886</Longitude>
+				<Speed>0</Speed>
+				<Altitude>12000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="PAR">
+				<SidTr_Waypoint ID="1">
+					<Name>PAR</Name>
+					<Type>Normal</Type>
+					<Latitude>9.517500</Latitude>
+					<Longitude>-84.316944</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="ISEBA">
+				<SidTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>9.663334</Latitude>
+					<Longitude>-84.237365</Longitude>
+					<Speed>0</Speed>
+					<Altitude>13000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>ISEBA</Name>
+					<Type>Normal</Type>
+					<Latitude>9.541278</Latitude>
+					<Longitude>-82.869861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07">
+				<RwyTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.008168</Latitude>
+					<Longitude>-84.173845</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>TIO02</Name>
+					<Type>Normal</Type>
+					<Latitude>9.979238</Latitude>
+					<Longitude>-84.160628</Longitude>
+					<Speed>0</Speed>
+					<Altitude>4600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="CACAO" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>CACAO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.988333</Latitude>
+				<Longitude>-84.490000</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="ULAPO">
+				<SidTr_Waypoint ID="1">
+					<Name>UPALA</Name>
+					<Type>Normal</Type>
+					<Latitude>10.323333</Latitude>
+					<Longitude>-84.535000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>ULAPO</Name>
+					<Type>Normal</Type>
+					<Latitude>11.028333</Latitude>
+					<Longitude>-85.171667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="RADON">
+				<SidTr_Waypoint ID="1">
+					<Name>RADON</Name>
+					<Type>Normal</Type>
+					<Latitude>10.690833</Latitude>
+					<Longitude>-84.072500</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="COL">
+				<SidTr_Waypoint ID="1">
+					<Name>COL</Name>
+					<Type>Normal</Type>
+					<Latitude>10.753333</Latitude>
+					<Longitude>-83.583333</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07">
+				<RwyTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.008168</Latitude>
+					<Longitude>-84.173845</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>TIO02</Name>
+					<Type>Normal</Type>
+					<Latitude>9.979238</Latitude>
+					<Longitude>-84.160628</Longitude>
+					<Speed>0</Speed>
+					<Altitude>4600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="POAS" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="ULAPO">
+				<SidTr_Waypoint ID="1">
+					<Name>CACAO</Name>
+					<Type>Normal</Type>
+					<Latitude>9.988333</Latitude>
+					<Longitude>-84.490000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>9500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>UPALA</Name>
+					<Type>Normal</Type>
+					<Latitude>10.323333</Latitude>
+					<Longitude>-84.535000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>ULAPO</Name>
+					<Type>Normal</Type>
+					<Latitude>11.028333</Latitude>
+					<Longitude>-85.171667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="RADON">
+				<SidTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.064807</Latitude>
+					<Longitude>-84.218892</Longitude>
+					<Speed>0</Speed>
+					<Altitude>9500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>RADON</Name>
+					<Type>Normal</Type>
+					<Latitude>10.690833</Latitude>
+					<Longitude>-84.072500</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="COL">
+				<SidTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.047978</Latitude>
+					<Longitude>-84.183265</Longitude>
+					<Speed>0</Speed>
+					<Altitude>9500</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>COL</Name>
+					<Type>Normal</Type>
+					<Latitude>10.753333</Latitude>
+					<Longitude>-83.583333</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07">
+				<RwyTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.008168</Latitude>
+					<Longitude>-84.173845</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>TIO02</Name>
+					<Type>Normal</Type>
+					<Latitude>9.979238</Latitude>
+					<Longitude>-84.160628</Longitude>
+					<Speed>0</Speed>
+					<Altitude>4600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Sid Name="RAMON" Runways="All">
+			<Sid_Waypoint ID="1">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Waypoint ID="2">
+				<Name>RAMON</Name>
+				<Type>Normal</Type>
+				<Latitude>10.067911</Latitude>
+				<Longitude>-84.421469</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>above</AltitudeRestriction>
+			</Sid_Waypoint>
+			<Sid_Transition Name="TIGRE">
+				<SidTr_Waypoint ID="1">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>9.983333</Latitude>
+					<Longitude>-84.236667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>70</Hdg_Crs_value>
+					<RadialtoIntercept>39</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>TIGRE</Name>
+					<Type>Normal</Type>
+					<Latitude>10.493333</Latitude>
+					<Longitude>-83.801667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>COL</Name>
+					<Type>Normal</Type>
+					<Latitude>10.753333</Latitude>
+					<Longitude>-83.583333</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="RADON">
+				<SidTr_Waypoint ID="1">
+					<Name>(INTC)</Name>
+					<Type>Intc</Type>
+					<Latitude>9.983333</Latitude>
+					<Longitude>-84.236667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+					<Hdg_Crs>1</Hdg_Crs>
+					<Hdg_Crs_value>40</Hdg_Crs_value>
+					<RadialtoIntercept>12</RadialtoIntercept>
+					<Sp_Turn>Auto</Sp_Turn>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>RADON</Name>
+					<Type>Normal</Type>
+					<Latitude>10.690833</Latitude>
+					<Longitude>-84.072500</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="UPALA">
+				<SidTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.264934</Latitude>
+					<Longitude>-84.493323</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>UPALA</Name>
+					<Type>Normal</Type>
+					<Latitude>10.323333</Latitude>
+					<Longitude>-84.535000</Longitude>
+					<Speed>0</Speed>
+					<Altitude>14000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>ULAPO</Name>
+					<Type>Normal</Type>
+					<Latitude>11.028333</Latitude>
+					<Longitude>-85.171667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<Sid_Transition Name="MIRAM">
+				<SidTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.103788</Latitude>
+					<Longitude>-84.510145</Longitude>
+					<Speed>0</Speed>
+					<Altitude>11000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="2">
+					<Name>TIO02</Name>
+					<Type>Normal</Type>
+					<Latitude>10.137774</Latitude>
+					<Longitude>-84.587436</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+				<SidTr_Waypoint ID="3">
+					<Name>LIB</Name>
+					<Type>Normal</Type>
+					<Latitude>10.593333</Latitude>
+					<Longitude>-85.546667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</SidTr_Waypoint>
+			</Sid_Transition>
+			<RunwayTransition Runway="07">
+				<RwyTr_Waypoint ID="1">
+					<Name>TIO01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.008168</Latitude>
+					<Longitude>-84.173845</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</RwyTr_Waypoint>
+				<RwyTr_Waypoint ID="2">
+					<Name>TIO02</Name>
+					<Type>Normal</Type>
+					<Latitude>9.979238</Latitude>
+					<Longitude>-84.160628</Longitude>
+					<Speed>0</Speed>
+					<Altitude>4600</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>above</AltitudeRestriction>
+				</RwyTr_Waypoint>
+			</RunwayTransition>
+		</Sid>
+		<Star Name="PARRITA">
+			<Star_Waypoint ID="1">
+				<Name>TIO01</Name>
+				<Type>Normal</Type>
+				<Latitude>9.700434</Latitude>
+				<Longitude>-84.431113</Longitude>
+				<Speed>0</Speed>
+				<Altitude>11500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>TIO02</Name>
+				<Type>Normal</Type>
+				<Latitude>9.822422</Latitude>
+				<Longitude>-84.509593</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>TOMAS</Name>
+				<Type>Normal</Type>
+				<Latitude>9.889500</Latitude>
+				<Longitude>-84.471650</Longitude>
+				<Speed>0</Speed>
+				<Altitude>8000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Transition Name="PARAI">
+				<StarTr_Waypoint ID="1">
+					<Name>PARAI</Name>
+					<Type>Normal</Type>
+					<Latitude>9.846667</Latitude>
+					<Longitude>-83.836667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>22000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="ISEBA">
+				<StarTr_Waypoint ID="1">
+					<Name>ISEBA</Name>
+					<Type>Normal</Type>
+					<Latitude>9.541278</Latitude>
+					<Longitude>-82.869861</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>ISE01</Name>
+					<Type>Normal</Type>
+					<Latitude>9.546013</Latitude>
+					<Longitude>-83.833182</Longitude>
+					<Speed>0</Speed>
+					<Altitude>24000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>ISE02</Name>
+					<Type>Normal</Type>
+					<Latitude>9.546632</Latitude>
+					<Longitude>-84.022469</Longitude>
+					<Speed>0</Speed>
+					<Altitude>21000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>PAR</Name>
+					<Type>Normal</Type>
+					<Latitude>9.517500</Latitude>
+					<Longitude>-84.316944</Longitude>
+					<Speed>0</Speed>
+					<Altitude>15000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="PAR">
+				<StarTr_Waypoint ID="1">
+					<Name>PAR</Name>
+					<Type>Normal</Type>
+					<Latitude>9.517500</Latitude>
+					<Longitude>-84.316944</Longitude>
+					<Speed>0</Speed>
+					<Altitude>15000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="TOMAS">
+			<Star_Waypoint ID="1">
+				<Name>TOMAS</Name>
+				<Type>Normal</Type>
+				<Latitude>9.889500</Latitude>
+				<Longitude>-84.471650</Longitude>
+				<Speed>0</Speed>
+				<Altitude>8000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Transition Name="LIB">
+				<StarTr_Waypoint ID="1">
+					<Name>LIB</Name>
+					<Type>Normal</Type>
+					<Latitude>10.593333</Latitude>
+					<Longitude>-85.546667</Longitude>
+					<Speed>0</Speed>
+					<Altitude>0</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="2">
+					<Name>LIB01</Name>
+					<Type>Normal</Type>
+					<Latitude>10.285841</Latitude>
+					<Longitude>-85.097356</Longitude>
+					<Speed>0</Speed>
+					<Altitude>21000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="3">
+					<Name>LIB02</Name>
+					<Type>Normal</Type>
+					<Latitude>10.190516</Latitude>
+					<Longitude>-84.958429</Longitude>
+					<Speed>0</Speed>
+					<Altitude>18000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="4">
+					<Name>LIB03</Name>
+					<Type>Normal</Type>
+					<Latitude>10.095132</Latitude>
+					<Longitude>-84.819586</Longitude>
+					<Speed>0</Speed>
+					<Altitude>15000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="5">
+					<Name>LIB04</Name>
+					<Type>Normal</Type>
+					<Latitude>9.999690</Latitude>
+					<Longitude>-84.680824</Longitude>
+					<Speed>0</Speed>
+					<Altitude>12000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+				<StarTr_Waypoint ID="6">
+					<Name>LIB05</Name>
+					<Type>Normal</Type>
+					<Latitude>9.904191</Latitude>
+					<Longitude>-84.542144</Longitude>
+					<Speed>0</Speed>
+					<Altitude>9000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+			<Star_Transition Name="PARZA">
+				<StarTr_Waypoint ID="1">
+					<Name>PARZA</Name>
+					<Type>Normal</Type>
+					<Latitude>9.826431</Latitude>
+					<Longitude>-84.628367</Longitude>
+					<Speed>0</Speed>
+					<Altitude>10000</Altitude>
+					<AltitudeCons>0</AltitudeCons>
+					<AltitudeRestriction>at</AltitudeRestriction>
+				</StarTr_Waypoint>
+			</Star_Transition>
+		</Star>
+		<Star Name="FIORA">
+			<Star_Waypoint ID="1">
+				<Name>FIO</Name>
+				<Type>Normal</Type>
+				<Latitude>10.448333</Latitude>
+				<Longitude>-84.466667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>18000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="2">
+				<Name>FIO01</Name>
+				<Type>Normal</Type>
+				<Latitude>10.284625</Latitude>
+				<Longitude>-84.487615</Longitude>
+				<Speed>0</Speed>
+				<Altitude>15000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="3">
+				<Name>FIO02</Name>
+				<Type>Normal</Type>
+				<Latitude>10.125876</Latitude>
+				<Longitude>-84.507907</Longitude>
+				<Speed>0</Speed>
+				<Altitude>12000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="4">
+				<Name>FIO03</Name>
+				<Type>Normal</Type>
+				<Latitude>10.076267</Latitude>
+				<Longitude>-84.514244</Longitude>
+				<Speed>0</Speed>
+				<Altitude>11500</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="5">
+				<Name>FIO04</Name>
+				<Type>Normal</Type>
+				<Latitude>9.943975</Latitude>
+				<Longitude>-84.531134</Longitude>
+				<Speed>0</Speed>
+				<Altitude>9000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+			<Star_Waypoint ID="6">
+				<Name>TOMAS</Name>
+				<Type>Normal</Type>
+				<Latitude>9.889500</Latitude>
+				<Longitude>-84.471650</Longitude>
+				<Speed>0</Speed>
+				<Altitude>8000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</Star_Waypoint>
+		</Star>
+		<Approach Name="ILS07">
+			<App_Waypoint ID="1">
+				<Name>CARBA</Name>
+				<Type>Normal</Type>
+				<Latitude>9.920492</Latitude>
+				<Longitude>-84.392647</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>MONTE</Name>
+				<Type>Normal</Type>
+				<Latitude>9.954269</Latitude>
+				<Longitude>-84.313519</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW07</Name>
+				<Type>Runway</Type>
+				<Latitude>9.989000</Latitude>
+				<Longitude>-84.221858</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3021</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>6000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+		</Approach>
+		<Approach Name="25">
+			<App_Waypoint ID="1">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="2">
+				<Name>TIO01</Name>
+				<Type>Normal</Type>
+				<Latitude>9.979238</Latitude>
+				<Longitude>-84.160628</Longitude>
+				<Speed>0</Speed>
+				<Altitude>4600</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="3">
+				<Name>D068D</Name>
+				<Type>Normal</Type>
+				<Latitude>10.007720</Latitude>
+				<Longitude>-84.173160</Longitude>
+				<Speed>0</Speed>
+				<Altitude>0</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="4">
+				<Name>RW25</Name>
+				<Type>Runway</Type>
+				<Latitude>9.998853</Latitude>
+				<Longitude>-84.195911</Longitude>
+				<Speed>0</Speed>
+				<Altitude>3021</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+			<App_Waypoint ID="5">
+				<Name>TIO</Name>
+				<Type>Normal</Type>
+				<Latitude>9.983333</Latitude>
+				<Longitude>-84.236667</Longitude>
+				<Speed>0</Speed>
+				<Altitude>7000</Altitude>
+				<AltitudeCons>0</AltitudeCons>
+				<AltitudeRestriction>at</AltitudeRestriction>
+			</App_Waypoint>
+		</Approach>
+	</Airport>
+</ProceduresDB>
